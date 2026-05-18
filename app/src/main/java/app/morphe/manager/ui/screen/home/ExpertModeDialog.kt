@@ -6,6 +6,7 @@
 package app.morphe.manager.ui.screen.home
 
 import android.annotation.SuppressLint
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.*
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -168,6 +169,11 @@ fun ExpertModeDialog(
         compactPadding = true,
         scrollable = false
     ) {
+        BackHandler(enabled = searchVisible) {
+            searchQuery = ""
+            searchVisible = false
+        }
+
         Column(
             modifier = Modifier.fillMaxWidth(),
             verticalArrangement = Arrangement.spacedBy(8.dp)
