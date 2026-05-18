@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Datoteke ni bilo mogoče prebrati. Preverite, ali \'Zunanji pomnilnik\' ni omejen zaradi porabe baterije</string>
     <string name="home_invalid_apk_not_an_apk">Izbrana datoteka ni veljavna datoteka APK</string>
     <string name="home_invalid_apk_io_error">Ni bilo mogoče odpreti datoteke. Poskusite znova</string>
+    <string name="home_external_apk_expert_mode_required">Ta funkcija je na voljo samo v strokovnem načinu</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Strokovni način</string>
     <string name="expert_mode_search">Išči popravke</string>
@@ -186,6 +187,7 @@ Za najboljše rezultate ta aplikacija priporoča popravljanje &lt;b&gt;polne APK
     <string name="patch_option_enter_number">Vnesi številko</string>
     <string name="patch_option_enter_decimal">Vnesi decimalno mesto</string>
     <string name="patch_option_pick_folder">Izberi mapo</string>
+    <string name="patch_option_pick_file">Izberi datoteko</string>
     <string name="patch_option_list_duplicate">Ta vrednost že obstaja</string>
     <string name="patch_option_list_empty">Vrednost ne more biti prazna</string>
     <string name="patch_option_list_empty_state">Še nobene vrednosti ni dodano</string>
@@ -294,6 +296,10 @@ Odstranitev bo trajno izbrisala vse podatke aplikacije."</string>
     <string name="patcher_step_group_saving">Shranjevanje</string>
     <string name="patcher_step_write_patched">Shranjevanje popravljene datoteke APK</string>
     <string name="patcher_step_sign_apk">Podpisovanje popravljene datoteke APK</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Zaščita pred popravljanjem v ozadju</string>
+    <string name="battery_optimization_dialog_description">Nekatere naprave lahko ustavijo popravek, ko je aplikacija minimizirana. Dovolite programu Morphe, da se izvaja brez omejitev baterije, da zagotovite zanesljivo dokončanje popravljanja.</string>
+    <string name="battery_optimization_not_now">Pozneje</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Popravki so v teku…</string>
     <string name="patcher_notification_text">Dotaknite se, da se vrnete k popravilu</string>
@@ -560,6 +566,10 @@ Dimenzije slike morajo biti naslednje:
     <string name="settings_prompt_installer_on_install">Obvestite namestitelja ob namestitvi</string>
     <string name="settings_prompt_installer_on_install_description">Pokažite dialog za izbiro polnilnika vsakič, ko namestite popravljeno aplikacijo.</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Optimizacija baterije</string>
+    <string name="settings_system_battery_optimization_description">Preprečuje sistemu, da ustavi program za popravljanje, ko je Morphe minimiziran</string>
+    <string name="settings_system_battery_optimization_excluded">Izključeno</string>
+    <string name="settings_system_battery_optimization_not_excluded">Ni izključeno</string>
     <string name="settings_system_performance">Izvedba</string>
     <string name="settings_system_process_runtime">Čas izvajanja procesa</string>
     <string name="settings_system_process_runtime_description">Izvajanje popravila v ločenem procesu za boljšo stabilnost</string>

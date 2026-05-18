@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Hindi mabasa ang file. Siguraduhing hindi pinagbabawalan ng baterya ang \'External Storage\'</string>
     <string name="home_invalid_apk_not_an_apk">Ang napiling file ay hindi isang valid na APK</string>
     <string name="home_invalid_apk_io_error">Hindi mabuksan ang file. Pakisubukan muli</string>
+    <string name="home_external_apk_expert_mode_required">Ang tampok na ito ay available lamang sa Expert mode</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Expert mode</string>
     <string name="expert_mode_search">Maghanap ng mga patch</string>
@@ -186,6 +187,7 @@ Para sa pinakamahusay na resulta, nirerekomenda ng app na ito na i-patch ang isa
     <string name="patch_option_enter_number">Ilagay ang numero</string>
     <string name="patch_option_enter_decimal">Ilagay ang decimal</string>
     <string name="patch_option_pick_folder">Piliin ang folder</string>
+    <string name="patch_option_pick_file">Pumili ng file</string>
     <string name="patch_option_list_duplicate">May umiiral na ang halagang ito</string>
     <string name="patch_option_list_empty">Hindi maaaring walang laman ang halaga</string>
     <string name="patch_option_list_empty_state">Walang idinagdag na halaga pa</string>
@@ -294,6 +296,10 @@ Ang pag-uninstall ay permanenteng bubura sa lahat ng data ng app."</string>
     <string name="patcher_step_group_saving">Iniimbak</string>
     <string name="patcher_step_write_patched">Isinusulat ang na-patch na APK file</string>
     <string name="patcher_step_sign_apk">Inilalagda ang na-patch na APK file</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Proteksyon sa pag-patch sa background</string>
+    <string name="battery_optimization_dialog_description">Maaaring itigil ng ilang device ang patcher kapag na-minimize ang app. Payagan ang Morphe na tumakbo nang walang mga paghihigpit sa baterya upang matiyak na kumpleto ang pag-patch nang maaasahan</string>
+    <string name="battery_optimization_not_now">Hindi na ngayon</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Pinoproseso ang pagpa-patch…</string>
     <string name="patcher_notification_text">Pindutin upang bumalik sa patcher</string>
@@ -560,6 +566,10 @@ Dapat ang mga sumusunod na sukat ng larawan ay:
     <string name="settings_prompt_installer_on_install">Idikta ang installer sa pag-install</string>
     <string name="settings_prompt_installer_on_install_description">Ipakita ang diyalogo ng pagpili ng installer sa tuwing mag-i-install ka ng naka-patch na aplikasyon</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Pag-optimize sa baterya</string>
+    <string name="settings_system_battery_optimization_description">Pinipigilan ng sistemang ito ang pagtigil ng patcher kapag na-minimize ang Morphe</string>
+    <string name="settings_system_battery_optimization_excluded">Hindi kasama</string>
+    <string name="settings_system_battery_optimization_not_excluded">Kasama</string>
     <string name="settings_system_performance">Pagganap</string>
     <string name="settings_system_process_runtime">Runtime ng proseso</string>
     <string name="settings_system_process_runtime_description">Patakbuhin ang pagpapa-patch sa hiwalay na proseso para sa mas mahusay na katatagan</string>

@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Không thể đọc tệp. Hãy kiểm tra xem \"Bộ nhớ ngoài\" có bị hạn chế pin hay không</string>
     <string name="home_invalid_apk_not_an_apk">Tệp đã chọn không phải là tệp APK hợp lệ</string>
     <string name="home_invalid_apk_io_error">Không thể mở tệp. Vui lòng thử lại</string>
+    <string name="home_external_apk_expert_mode_required">Tính năng này chỉ khả dụng ở chế độ Chuyên gia</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Chế độ chuyên gia</string>
     <string name="expert_mode_search">Tìm kiếm</string>
@@ -186,6 +187,7 @@ Tốt nhất bạn nên chuyển sang &lt;b&gt;APK đầy đủ&lt;/b&gt; để 
     <string name="patch_option_enter_number">Nhập số</string>
     <string name="patch_option_enter_decimal">Nhập số thập phân</string>
     <string name="patch_option_pick_folder">Chọn thư mục</string>
+    <string name="patch_option_pick_file">Chọn tệp</string>
     <string name="patch_option_list_duplicate">Giá trị này đã tồn tại rồi</string>
     <string name="patch_option_list_empty">Không được để trống</string>
     <string name="patch_option_list_empty_state">Chưa thêm giá trị nào</string>
@@ -294,6 +296,10 @@ Gỡ cài đặt sẽ xóa vĩnh viễn toàn bộ dữ liệu ứng dụng"</st
     <string name="patcher_step_group_saving">Đang lưu</string>
     <string name="patcher_step_write_patched">Đang viết APK đã vá</string>
     <string name="patcher_step_sign_apk">Đang ký APK đã vá</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Bảo vệ khi vá lỗi nền</string>
+    <string name="battery_optimization_dialog_description">Một số thiết bị có thể dừng bộ vá lỗi khi ứng dụng bị thu nhỏ. Cho phép Morphe chạy mà không có giới hạn pin để đảm bảo quá trình vá lỗi hoàn tất một cách đáng tin cậy.</string>
+    <string name="battery_optimization_not_now">Không phải bây giờ</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Đang vá…</string>
     <string name="patcher_notification_text">Bấm để quay trở lại trình vá</string>
@@ -561,6 +567,10 @@ Kích thước hình ảnh yêu cầu:
     <string name="settings_prompt_installer_on_install">Hỏi trình cài đặt khi cài</string>
     <string name="settings_prompt_installer_on_install_description">Luôn hiện hộp thoại chọn trình cài đặt khi cài ứng dụng đã vá</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Tối ưu hóa pin</string>
+    <string name="settings_system_battery_optimization_description">Ngăn hệ thống dừng chương trình vá lỗi khi Morphe được thu nhỏ</string>
+    <string name="settings_system_battery_optimization_excluded">Đã loại trừ</string>
+    <string name="settings_system_battery_optimization_not_excluded">Chưa loại trừ</string>
     <string name="settings_system_performance">Hiệu suất</string>
     <string name="settings_system_process_runtime">Tiến trình riêng</string>
     <string name="settings_system_process_runtime_description">Chạy quá trình vá trong tiến trình riêng biệt để cải thiện độ ổn định</string>

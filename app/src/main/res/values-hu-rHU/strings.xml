@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Nem sikerült olvasni a fájlt. Ellenőrizd, hogy a \'Külső tároló\' nincs-e akkumulátorkorlátozás alatt</string>
     <string name="home_invalid_apk_not_an_apk">A kiválasztott fájl nem egy érvényes APK</string>
     <string name="home_invalid_apk_io_error">Nem sikerült megnyitni a fájlt. Kérjük, próbáld újra</string>
+    <string name="home_external_apk_expert_mode_required">Ez a funkció csak szakértői módban érhető el</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Szakértői mód</string>
     <string name="expert_mode_search">Módosítások keresése</string>
@@ -186,6 +187,7 @@ A legjobb eredmény érdekében az alkalmazás javasolja a &lt;b&gt;teljes APK&l
     <string name="patch_option_enter_number">Szám megadása</string>
     <string name="patch_option_enter_decimal">Tizedes megadása</string>
     <string name="patch_option_pick_folder">Mappa kiválasztása</string>
+    <string name="patch_option_pick_file">Fájl kiválasztása</string>
     <string name="patch_option_list_duplicate">Ez az érték már létezik</string>
     <string name="patch_option_list_empty">Az érték nem lehet üres</string>
     <string name="patch_option_list_empty_state">Még nincsenek hozzáadott értékek</string>
@@ -294,6 +296,10 @@ Az eltávolítás véglegesen törli az alkalmazás összes adatát."</string>
     <string name="patcher_step_group_saving">Mentés</string>
     <string name="patcher_step_write_patched">Módosított APK fájl írása</string>
     <string name="patcher_step_sign_apk">Módosított APK fájl aláírása</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Háttérjavítási védelem</string>
+    <string name="battery_optimization_dialog_description">Bizonyos eszközök leállíthatják a javítót, ha az alkalmazás minimalizálva van. Engedélyezze a Morphe akadálytalan futását akkumulátor-korlátozások nélkül, hogy a javítás megbízhatóan befejeződjön.</string>
+    <string name="battery_optimization_not_now">Most nem</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Módosítás folyamatban…</string>
     <string name="patcher_notification_text">Koppints a módosítóhoz való visszatéréshez</string>
@@ -560,6 +566,10 @@ A képek méreteinek a következőknek kell lennie:
     <string name="settings_prompt_installer_on_install">Telepítő kiválasztása telepítéskor</string>
     <string name="settings_prompt_installer_on_install_description">Telepítőválasztó ablak megjelenítése minden alkalommal, amikor módosított alkalmazást telepítesz</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Akkuoptimalizálás</string>
+    <string name="settings_system_battery_optimization_description">Megakadályozza, hogy a rendszer leállítsa a javítót, ha a Morphe minimalizálva van.</string>
+    <string name="settings_system_battery_optimization_excluded">Kizárt</string>
+    <string name="settings_system_battery_optimization_not_excluded">Nem kizárt</string>
     <string name="settings_system_performance">Teljesítmény</string>
     <string name="settings_system_process_runtime">Folyamat futási ideje</string>
     <string name="settings_system_process_runtime_description">A jobb stabilitás érdekében a módosítást külön folyamatban futtatja</string>

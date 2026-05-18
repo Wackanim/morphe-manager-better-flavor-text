@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Kon nie die lêer lees nie. Gaan na of \'Eksterne stoorplek\' nie beperk is vir die battery nie</string>
     <string name="home_invalid_apk_not_an_apk">Die gekose lêer is nie \'n geldige APK nie</string>
     <string name="home_invalid_apk_io_error">Kon die lêer nie oopmaak nie. Probeer weer</string>
+    <string name="home_external_apk_expert_mode_required">Hierdie funksie is slegs beskikbaar in Ekspermodus</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Spesialismodus</string>
     <string name="expert_mode_search">Soek patchings</string>
@@ -186,6 +187,7 @@ Vir die beste resultate beveel hierdie app aan om 'n &lt;b&gt;volle APK&lt;/b&gt
     <string name="patch_option_enter_number">Gee getal in</string>
     <string name="patch_option_enter_decimal">Gee desimaal in</string>
     <string name="patch_option_pick_folder">Kies vouer</string>
+    <string name="patch_option_pick_file">Kies lêer</string>
     <string name="patch_option_list_duplicate">Hierdie waarde bestaan ​​reeds</string>
     <string name="patch_option_list_empty">Waarde kan nie leeg wees nie</string>
     <string name="patch_option_list_empty_state">Geen waardes bygevoeg nie</string>
@@ -294,6 +296,10 @@ Deïnstallering sal alle toepassingsdata permanent uitwis."</string>
     <string name="patcher_step_group_saving">Stoor</string>
     <string name="patcher_step_write_patched">Skryf gepatchte APK lêer</string>
     <string name="patcher_step_sign_apk">Teken gepatchte APK lêer</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Beskerming teen agtergrondpleister</string>
+    <string name="battery_optimization_dialog_description">Sommige toestelle kan die pleister stop wanneer die toepassing geminimaliseer word. Laat Morphe sonder batterybeperkings loop om te verseker dat die pleister betroubaar voltooi word.</string>
+    <string name="battery_optimization_not_now">Nie nou nie</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Patching aan die gang…</string>
     <string name="patcher_notification_text">Tik om terug te keer na die patcher</string>
@@ -560,6 +566,10 @@ Die beeld afmetings moet soos volg wees:
     <string name="settings_prompt_installer_on_install">Prompt installer on install</string>
     <string name="settings_prompt_installer_on_install_description">Show installer selection dialog each time you install a patched app</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Battery-optimalisering</string>
+    <string name="settings_system_battery_optimization_description">Verhoed dat die stelsel die pleister stop wanneer Morphe geminimeer is</string>
+    <string name="settings_system_battery_optimization_excluded">Uitgesluit</string>
+    <string name="settings_system_battery_optimization_not_excluded">Nie uitgesluit nie</string>
     <string name="settings_system_performance">Prestasie</string>
     <string name="settings_system_process_runtime">Proses tydloop</string>
     <string name="settings_system_process_runtime_description">Voer patching uit in \'n aparte proses vir beter stabiliteit</string>

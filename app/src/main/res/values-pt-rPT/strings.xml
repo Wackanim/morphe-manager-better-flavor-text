@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Não foi possível aceder ao ficheiro. Verifica se o \'Armazenamento Externo\' não está restrito pela bateria</string>
     <string name="home_invalid_apk_not_an_apk">O ficheiro selecionado não é um APK válido</string>
     <string name="home_invalid_apk_io_error">Erro ao abrir o ficheiro. Por favor, tenta de novo</string>
+    <string name="home_external_apk_expert_mode_required">Este recurso está disponível apenas no modo Expert</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Modo avançado</string>
     <string name="expert_mode_search">Pesquisar modificações</string>
@@ -186,6 +187,7 @@ Para obteres os melhores resultados, este ficheiro recomenda a modificação de 
     <string name="patch_option_enter_number">Inserir número</string>
     <string name="patch_option_enter_decimal">Inserir decimal</string>
     <string name="patch_option_pick_folder">Selecionar pasta</string>
+    <string name="patch_option_pick_file">Escolher ficheiro</string>
     <string name="patch_option_list_duplicate">Este valor já existe</string>
     <string name="patch_option_list_empty">Valor não pode estar vazio</string>
     <string name="patch_option_list_empty_state">Ainda não foi adicionado nenhum valor</string>
@@ -294,6 +296,10 @@ Desinstalar apagará permanentemente todos os dados do aplicativo."</string>
     <string name="patcher_step_group_saving">A guardar</string>
     <string name="patcher_step_write_patched">A escrever ficheiro APK modificado</string>
     <string name="patcher_step_sign_apk">A assinar ficheiro APK modificado</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Proteção contra aplicação de patches em segundo plano</string>
+    <string name="battery_optimization_dialog_description">Alguns dispositivos podem interromper o aplicador de patches quando o aplicativo é minimizado. Permita que o Morphe seja executado sem restrições de bateria para garantir que a aplicação de patches seja concluída de forma confiável</string>
+    <string name="battery_optimization_not_now">Não agora</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Modificação em progresso…</string>
     <string name="patcher_notification_text">Toca para voltar ao modificador</string>
@@ -560,6 +566,10 @@ As dimensões das imagens devem ser as seguintes:
     <string name="settings_prompt_installer_on_install">Solicitar instalador na instalação</string>
     <string name="settings_prompt_installer_on_install_description">Mostrar diálogo de seleção de instalador cada vez que instalares uma aplicação modificada</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Otimização de bateria</string>
+    <string name="settings_system_battery_optimization_description">Impede que o sistema pare o patcher quando o Morphe for minimizado</string>
+    <string name="settings_system_battery_optimization_excluded">Excluído</string>
+    <string name="settings_system_battery_optimization_not_excluded">Não excluído</string>
     <string name="settings_system_performance">Desempenho</string>
     <string name="settings_system_process_runtime">Tempo de execução</string>
     <string name="settings_system_process_runtime_description">Executa a modificação num processo separado para maior estabilidade</string>

@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Nije moguće pročitati datoteku. Proverite da \'Eksternu memoriju\' ne ograničava baterija</string>
     <string name="home_invalid_apk_not_an_apk">Odabrana datoteka nije validan APK</string>
     <string name="home_invalid_apk_io_error">Nije uspelo otvaranje datoteke. Molimo pokušajte ponovo</string>
+    <string name="home_external_apk_expert_mode_required">Ova funkcionalnost je dostupna samo u režimu stručnjaka.</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Režim eksperta</string>
     <string name="expert_mode_search">Pretraži patchove</string>
@@ -186,6 +187,7 @@ Da li ste sigurni da želite nastaviti?"</string>
     <string name="patch_option_enter_number">Unesite broj</string>
     <string name="patch_option_enter_decimal">Unesite decimalni broj</string>
     <string name="patch_option_pick_folder">Odaberite folder</string>
+    <string name="patch_option_pick_file">Izaberi datoteku</string>
     <string name="patch_option_list_duplicate">Ova vrednost već postoji</string>
     <string name="patch_option_list_empty">Vrednost ne može biti prazna</string>
     <string name="patch_option_list_empty_state">Još nisu dodate vrednosti</string>
@@ -294,6 +296,10 @@ Deinstalacija će trajno obrisati sve podatke aplikacije"</string>
     <string name="patcher_step_group_saving">Čuvanje</string>
     <string name="patcher_step_write_patched">Pisanje zakrpljene APK datoteke</string>
     <string name="patcher_step_sign_apk">Potpisivanje zakrpljene APK datoteke</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Zaštita od zakrpljivanja u pozadini</string>
+    <string name="battery_optimization_dialog_description">Neki uređaji mogu zaustaviti program za zakrpljivanje kada je aplikacija minimizovana. Dopustite programu Morphe da radi bez ograničenja potrošnje baterije kako biste osigurali pouzdano završavanje zakrpljivanja.</string>
+    <string name="battery_optimization_not_now">Ne sada</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Zakrpljivanje je u toku…</string>
     <string name="patcher_notification_text">Dodirnite za povratak na zakrpu</string>
@@ -544,6 +550,10 @@ Opciono, putanja sadrži ikonu obaveštenja u jednom od sledećih formata:
     <string name="settings_prompt_installer_on_install">Pokušajte instalera na instalaciju</string>
     <string name="settings_prompt_installer_on_install_description">Prikaži dijalog odabira instalera svaki put kada instalirate patchiranu aplikaciju</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Optimizacija baterije</string>
+    <string name="settings_system_battery_optimization_description">Sprečava sistem da zaustavi program za zakrpe kada je Morphe minimizovan</string>
+    <string name="settings_system_battery_optimization_excluded">Isključeno</string>
+    <string name="settings_system_battery_optimization_not_excluded">Nije isključeno</string>
     <string name="settings_system_performance">Vrijedi vrijeme izvođenja</string>
     <string name="settings_system_process_runtime">Pokrenite proces izvođenja za bolju stabilnost</string>
     <string name="settings_system_process_runtime_description">Memorija ograničenja</string>

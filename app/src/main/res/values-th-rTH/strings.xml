@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">ไม่สามารถอ่านไฟล์ได้ โปรดตรวจสอบว่า \'หน่วยความจำภายนอก\' ไม่ได้ถูกจำกัดการใช้แบตเตอรี่</string>
     <string name="home_invalid_apk_not_an_apk">ไฟล์ที่เลือกไม่ใช่ไฟล์ APK ที่ถูกต้อง</string>
     <string name="home_invalid_apk_io_error">ไม่สามารถเปิดไฟล์ได้ โปรดลองอีกครั้ง</string>
+    <string name="home_external_apk_expert_mode_required">คุณสมบัตินี้มีให้ใช้งานเฉพาะในโหมดผู้เชี่ยวชาญเท่านั้น</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">โหมดผู้เชี่ยวชาญ</string>
     <string name="expert_mode_search">ค้นหาแพตซ์</string>
@@ -186,6 +187,7 @@
     <string name="patch_option_enter_number">ป้อนตัวเลข</string>
     <string name="patch_option_enter_decimal">ป้อนตัวเลขทศนิยม</string>
     <string name="patch_option_pick_folder">เลือกโฟลเดอร์</string>
+    <string name="patch_option_pick_file">เลือกไฟล์</string>
     <string name="patch_option_list_duplicate">ค่านี้มีอยู่แล้ว</string>
     <string name="patch_option_list_empty">ไม่สามารถเว้นว่างได้</string>
     <string name="patch_option_list_empty_state">ยังไม่ได้เพิ่มค่าใดๆ</string>
@@ -294,6 +296,10 @@
     <string name="patcher_step_group_saving">กำลังบันทึก</string>
     <string name="patcher_step_write_patched">กำลังเขียนไฟล์ APK ที่ได้รับการแพตช์</string>
     <string name="patcher_step_sign_apk">กำลังลงนามไฟล์ APK ที่ได้รับการแพตช์</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">การป้องกันการปรับแก้เบื้องหลัง</string>
+    <string name="battery_optimization_dialog_description">อุปกรณ์บางเครื่องอาจหยุดโปรแกรมปรับแก้เมื่อแอปพลิเคชันถูกลดขนาด อนุญาตให้ Morphe ทำงานโดยไม่มีข้อจำกัดด้านแบตเตอรี่เพื่อให้แน่ใจว่าการปรับแก้เสร็จสมบูรณ์ได้อย่างน่าเชื่อถือ</string>
+    <string name="battery_optimization_not_now">ไม่ตอนนี้</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">กำลังดำเนินการแพตช์…</string>
     <string name="patcher_notification_text">แตะเพื่อกลับไปยัง Patcher</string>
@@ -560,6 +566,10 @@ morphe_header_custom_dark.png
     <string name="settings_prompt_installer_on_install">แสดงตัวเลือกตัวติดตั้งในการติดตั้ง</string>
     <string name="settings_prompt_installer_on_install_description">แสดงกล่องโต้ตอบตัวเลือกตัวติดตั้งทุกครั้งที่คุณติดตั้งแอปปรับแก้</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">การเพิ่มประสิทธิภาพแบตเตอรี่</string>
+    <string name="settings_system_battery_optimization_description">ป้องกันไม่ให้ระบบหยุดการทำงานของ patcher เมื่อ Morphe ถูกลดขนาดหน้าต่าง</string>
+    <string name="settings_system_battery_optimization_excluded">ยกเว้น</string>
+    <string name="settings_system_battery_optimization_not_excluded">ไม่ได้ยกเว้น</string>
     <string name="settings_system_performance">การตั้งค่า</string>
     <string name="settings_system_process_runtime">การทำงานของโปรเซส</string>
     <string name="settings_system_process_runtime_description">ทำให้การนำพัท์ในโปรเซสแยกกต่างสำหรับ</string>

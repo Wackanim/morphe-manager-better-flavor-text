@@ -128,6 +128,7 @@
     <string name="home_invalid_apk_unreadable">फाईल वाचण्यात अयशस्वी. \'External Storage\' बॅटरी निर्बंधीत नसल्याची खात्री करा</string>
     <string name="home_invalid_apk_not_an_apk"> निवडलेली फाइल वैध APK नाही.</string>
     <string name="home_invalid_apk_io_error">फाईल उघडण्यात अयशस्वी. कृपया पुन्हा प्रयत्न करा</string>
+    <string name="home_external_apk_expert_mode_required">हे वैशिष्ट्य फक्त तज्ञ मोडमध्ये उपलब्ध आहे</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_reset_to_default">शिफारस केलेले पॅचेस सक्षम करा</string>
     <string name="expert_mode_restore_saved">निवडलेला डेटा पुनर्संचयित करा</string>
@@ -136,6 +137,7 @@
     <string name="home_low_disk_space_dialog_message">फक्त %1$.2f GB मोफत स्टोरेज उपलब्ध आहे. पॅचिंगसाठी योग्यरित्या कार्य करण्यासाठी किमान %2$.2f GB मोफत जागा आवश्यक आहे.</string>
     <string name="home_simple_bundle_select_title">सुधारणा मूळ स्त्रोत निवडा</string>
     <!-- Patch Options -->
+    <string name="patch_option_pick_file">फाईल निवडा</string>
     <string name="patch_option_required_missing">%s: आवश्यक पर्याय भरा</string>
     <!-- Adaptive Icon Creator -->
     <!-- Header Creator -->
@@ -153,6 +155,10 @@
     <string name="patcher_incompatible_patcher_description">बंडल &lt;b&gt;%1$s&lt;/b&gt; ला पॅचर व्हर्जन &lt;b&gt;%2$s&lt;/b&gt; किंवा नवीनची आवश्यकता आहे. कृपया हे ॲप पॅच करण्यासाठी Morphe अपडेट करा.</string>
     <string name="patcher_incompatible_patcher_update_button">Morphe डाउनलोड आणि अपडेट करा</string>
     <!-- Patcher Screen - Patcher Steps -->
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">पार्श्वभूमी पॅचिंग संरक्षण</string>
+    <string name="battery_optimization_dialog_description">ॲप मिनिमाइज केल्यावर काही उपकरणे पॅचर थांबवू शकतात. पॅचिंग নির্ভরযোগ্যपणे पूर्ण होण्यासाठी मोर्फेला बॅटरी निर्बंधांशिवाय चालण्याची परवानगी द्या.</string>
+    <string name="battery_optimization_not_now">आता नाही</string>
     <!-- Patcher Screen - Patcher Worker -->
     <!-- Patcher Screen - Patcher Messages -->
     <!-- Morphe patches fix YouTube bugs that Google still has not fixed. -->
@@ -202,6 +208,10 @@
     <string name="installer_external_timeout">%s ने इंस्टॉलेशनची पुष्टी केली नाही. कृपया इतर ॲप तपासा आणि पुन्हा प्रयत्न करा</string>
     <string name="installer_external_success">%s ने यशस्वी इंस्टॉलेशनची नोंद केली</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">बॅटरी ऑप्टिमायझेशन</string>
+    <string name="settings_system_battery_optimization_description">Morphe मिनिमाइज केल्यावर पॅचर थांबण्यापासून सिस्टीमला प्रतिबंधित करते</string>
+    <string name="settings_system_battery_optimization_excluded"> वगळलेले</string>
+    <string name="settings_system_battery_optimization_not_excluded">वगळलेले नाही</string>
     <!-- Settings - System Tab - Import and export keystore -->
     <string name="settings_system_import_keystore_dialog_format_field">कीस्टोअर स्वरूप</string>
     <string name="settings_system_export_keystore_failed">कीस्टोअर निर्यात करण्यात अयशस्वी</string>

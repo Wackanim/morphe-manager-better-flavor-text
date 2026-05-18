@@ -105,6 +105,7 @@
     <string name="home_apk_availability_yes">Da, pomozi mi pronaći aplikaciju</string>
     <string name="home_apk_availability_no">Ne, već imam aplikaciju</string>
     <string name="home_apk_use_saved_with_version">Koristi spremljenu aplikaciju(v%s)</string>
+    <string name="home_apk_use_installed_with_version">Koristi instaliranu aplikaciju(v%s)</string>
     <string name="home_app_info_no_saved_apk">Nema spremljene aplikacije. Patchanje će zahtijevati ponovni odabir aplikacije</string>
     <string name="home_version_requires_android">Zahtijeva Android %s+</string>
     <string name="home_apk_no_compatible_versions_title">Nije podržano na ovom uređaju</string>
@@ -131,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Nije moguće pročitati datoteku. Provjerite je li \'Vanjska pohrana\' ograničena baterijom</string>
     <string name="home_invalid_apk_not_an_apk">Odabrana datoteka nije valjani APK</string>
     <string name="home_invalid_apk_io_error">Nije moguće otvoriti datoteku. Molimo pokušajte ponovo</string>
+    <string name="home_external_apk_expert_mode_required">Ova je značajka dostupna samo u načinu rada za stručnjake</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Napredni način</string>
     <string name="expert_mode_search">Pretraživanje patcheva</string>
@@ -185,6 +187,7 @@ Za najbolje rezultate,  patchanje ove aplikacija preporučuje &lt;b&gt;cijeli AP
     <string name="patch_option_enter_number">Unesite broj</string>
     <string name="patch_option_enter_decimal">Unesite decimalu</string>
     <string name="patch_option_pick_folder">Odaberite mapu</string>
+    <string name="patch_option_pick_file">Odaberite datoteku</string>
     <string name="patch_option_list_duplicate">Ova vrijednost već postoji</string>
     <string name="patch_option_list_empty">Vrijednost ne može biti prazna</string>
     <string name="patch_option_list_empty_state">Još nema dodanih vrijednosti</string>
@@ -263,6 +266,11 @@ Za najbolje rezultate,  patchanje ove aplikacija preporučuje &lt;b&gt;cijeli AP
     <string name="patcher_unknown_error">Došlo je do nepoznate pogreške</string>
     <string name="patcher_conflict_title">Konflikt paketa</string>
     <string name="patcher_conflict_subtitle">Morate deinstalirati postojeću verziju</string>
+    <string name="patcher_conflict_hint">Patchana aplikacija koristi drugačiji certifikat od instalirane verzije. Deinstaliranjem će se izbrisati svi podaci aplikacije</string>
+    <string name="patcher_installed_conflict_title">Potrebna je deinstalacija</string>
+    <string name="patcher_installed_conflict_body">"Morphe potpisuje patchane aplikacije vlastitim certifikatom, što se razlikuje od originala. Android zahtijeva uklanjanje postojeće verzije prije nego što se patchana aplikacija može instalirati.
+
+Deinstaliranje će trajno izbrisati sve podatke aplikacije"</string>
     <string name="patcher_install_error_title">Pogreška pri instalaciji</string>
     <string name="patcher_install_error_subtitle">Pokušajte deinstalirati i instalirati ponovo</string>
     <string name="patcher_ready_to_install_subtitle">Pritisnite tipku ispod za instalaciju</string>
@@ -288,6 +296,10 @@ Za najbolje rezultate,  patchanje ove aplikacija preporučuje &lt;b&gt;cijeli AP
     <string name="patcher_step_group_saving">Spremanje</string>
     <string name="patcher_step_write_patched">Pisanje patchane aplikacije</string>
     <string name="patcher_step_sign_apk">Potpisivanje patchane aplikacije</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Zaštita patchanja u pozadini</string>
+    <string name="battery_optimization_dialog_description">Neki uređaji mogu zaustaviti patcher  kada je aplikacija umanjena. Dopustite Morpheu da radi bez ograničenja baterije kako biste osigurali pouzdano dovršavanje patchanja</string>
+    <string name="battery_optimization_not_now">Ne sada</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Patchanje u tijeku …</string>
     <string name="patcher_notification_text">Dodirnite da se vratite u patcher</string>
@@ -554,6 +566,10 @@ Dimenzije slike moraju biti sljedeće:
     <string name="settings_prompt_installer_on_install">Pitaj za instalacijski program prilikom instalacije</string>
     <string name="settings_prompt_installer_on_install_description">Prikaži dijalog za odabir instalacijskog programa svaki put kada instalirate patchanu aplikaciju</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Optimizacija baterije</string>
+    <string name="settings_system_battery_optimization_description">Sprječava sustav da zaustavi patchanje kada je Morphe minimiziran</string>
+    <string name="settings_system_battery_optimization_excluded">Isključeno</string>
+    <string name="settings_system_battery_optimization_not_excluded">Nije isključeno</string>
     <string name="settings_system_performance">Performanse</string>
     <string name="settings_system_process_runtime">Izvođenje procesa</string>
     <string name="settings_system_process_runtime_description">Pokrenite patchanje u zasebnom procesu za bolju stabilnost</string>

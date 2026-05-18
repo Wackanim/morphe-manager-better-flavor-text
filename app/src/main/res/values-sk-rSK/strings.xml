@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Nepodarilo sa prečítať súbor. Skontrolujte, či \'Externé úložisko\' nie je obmedzené v spotrebe batérie</string>
     <string name="home_invalid_apk_not_an_apk">Vybraný súbor nie je platný APK</string>
     <string name="home_invalid_apk_io_error">Nepodarilo sa otvoriť súbor. Skúste to znova</string>
+    <string name="home_external_apk_expert_mode_required">Táto funkcia je dostupná iba v expert móde</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Režim pre skúsených</string>
     <string name="expert_mode_search">Vyhľadať záplaty</string>
@@ -186,6 +187,7 @@ Pre najlepšie výsledky sa odporúča záplatovať &lt;b&gt;úplný APK&lt;/b&g
     <string name="patch_option_enter_number">Zadajte číslo</string>
     <string name="patch_option_enter_decimal">Zadajte desatinné číslo</string>
     <string name="patch_option_pick_folder">Vyberte priečinok</string>
+    <string name="patch_option_pick_file">Vyberte súbor</string>
     <string name="patch_option_list_duplicate">Táto hodnota už existuje</string>
     <string name="patch_option_list_empty">Hodnota nesmie byť prázdna</string>
     <string name="patch_option_list_empty_state">Zatiaľ neboli pridané žiadne hodnoty</string>
@@ -294,6 +296,10 @@ Odinštalovanie trvalo vymaže všetky údaje aplikácie."</string>
     <string name="patcher_step_group_saving">Ukládám</string>
     <string name="patcher_step_write_patched">Vytváram zaplátaný súbor APK</string>
     <string name="patcher_step_sign_apk">Podpisujem zaplátaný súbor APK</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Ochrana pred záplatami na pozadí</string>
+    <string name="battery_optimization_dialog_description">Na niektorých zariadeniach sa záplatovač môže zastaviť, keď je aplikácia minimalizovaná. Povolenie aplikácii Morphe spúšťanie bez obmedzení batérie zabezpečí spoľahlivé dokončenie záplatovania.</string>
+    <string name="battery_optimization_not_now">Neskoršie</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Prebieha plátanie...</string>
     <string name="patcher_notification_text">Ťuknite pre návrat do plátača</string>
@@ -560,6 +566,10 @@ Rozmery obrázka musia byť nasledovné:
     <string name="settings_prompt_installer_on_install">Vybrať inštalátor pri každej inštalácii</string>
     <string name="settings_prompt_installer_on_install_description">Zobraziť výber inštalátora pri každej inštalácii zaplátanej aplikácie</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Optimalizácia batérie</string>
+    <string name="settings_system_battery_optimization_description">Zabráni systému zastavenie patchera, keď je Morphe minimalizované.</string>
+    <string name="settings_system_battery_optimization_excluded">Vylúčené</string>
+    <string name="settings_system_battery_optimization_not_excluded">Nevylúčené</string>
     <string name="settings_system_performance">Výkon</string>
     <string name="settings_system_process_runtime">Runtime procesu</string>
     <string name="settings_system_process_runtime_description">Spustiť plátanie v samostatnom procese pre lepšiu stabilitu</string>

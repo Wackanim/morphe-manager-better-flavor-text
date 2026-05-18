@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Tidak dapat membaca berkas. Periksa apakah \'Penyimpanan Eksternal\' tidak dibatasi baterai</string>
     <string name="home_invalid_apk_not_an_apk">Berkas yang dipilih bukan APK yang sah</string>
     <string name="home_invalid_apk_io_error">Gagal membuka berkas. Silakan coba lagi</string>
+    <string name="home_external_apk_expert_mode_required">Fitur ini hanya tersedia dalam Mode Ahli</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Mode ahli</string>
     <string name="expert_mode_search">Cari tambalan</string>
@@ -187,6 +188,7 @@ Harap bersiap untuk perilaku aplikasi yang tidak biasa atau bug yang belum terid
     <string name="patch_option_enter_number">Masukkan nomor</string>
     <string name="patch_option_enter_decimal">Masukkan desimal</string>
     <string name="patch_option_pick_folder">Pilih folder</string>
+    <string name="patch_option_pick_file">Pilih file</string>
     <string name="patch_option_list_duplicate">Nilai ini sudah ada</string>
     <string name="patch_option_list_empty">Nilai tidak boleh kosong</string>
     <string name="patch_option_list_empty_state">Belum ada nilai yang ditambahkan</string>
@@ -265,11 +267,11 @@ Harap bersiap untuk perilaku aplikasi yang tidak biasa atau bug yang belum terid
     <string name="patcher_unknown_error">Terjadi kesalahan yang tidak diketahui</string>
     <string name="patcher_conflict_title">Paket konflik</string>
     <string name="patcher_conflict_subtitle">Anda perlu mencopot pemasangan versi yang ada</string>
-    <string name="patcher_conflict_hint">Aplikasi yang dipatch menggunakan sertifikat yang berbeda dari versi yang terpasang. Mencopot pemasangan akan menghapus semua data aplikasi</string>
-    <string name="patcher_installed_conflict_title">Pemasangan ulang diperlukan</string>
-    <string name="patcher_installed_conflict_body">"Morphe menandatangani aplikasi yang dipatch dengan sertifikatnya sendiri, yang berbeda dari yang asli. Android mengharuskan penghapusan versi yang sudah ada sebelum aplikasi yang dipatch dapat dipasang.
+    <string name="patcher_conflict_hint">Aplikasi yang ditambal menggunakan sertifikat yang berbeda dari versi yang terpasang. Mencopot pemasangan akan menghapus semua data aplikasi</string>
+    <string name="patcher_installed_conflict_title">Diperlukan mencopot pemasangan</string>
+    <string name="patcher_installed_conflict_body">"Morphe menandatangani aplikasi yang ditambal dengan sertifikatnya sendiri, yang berbeda dari yang asli. Android mengharuskan penghapusan versi yang sudah ada sebelum aplikasi yang ditambal dapat dipasang.
 
-Menghapus aplikasi akan menghapus semua data aplikasi secara permanen"</string>
+Mencopot pemasangannya akan menghapus semua data aplikasi secara permanen"</string>
     <string name="patcher_install_error_title">Kesalahan pemasangan</string>
     <string name="patcher_install_error_subtitle">Coba copot pemasangan dan pasang lagi</string>
     <string name="patcher_ready_to_install_subtitle">Tekan tombol di bawah untuk memasang</string>
@@ -295,6 +297,10 @@ Menghapus aplikasi akan menghapus semua data aplikasi secara permanen"</string>
     <string name="patcher_step_group_saving">Penyimpanan</string>
     <string name="patcher_step_write_patched">Menulis berkas APK yang ditambal</string>
     <string name="patcher_step_sign_apk">Menandatangani berkas APK yang ditambal</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Perlindungan penambalan latar belakang</string>
+    <string name="battery_optimization_dialog_description">Beberapa perangkat mungkin menghentikan penambal saat aplikasi diminimalkan. Izinkan Morphe berjalan tanpa pembatasan baterai untuk memastikan penambalan selesai dengan andal</string>
+    <string name="battery_optimization_not_now">Nanti saja</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Penyematan sedang berlangsung…</string>
     <string name="patcher_notification_text">Ketuk untuk kembali ke penambal</string>
@@ -561,6 +567,10 @@ Dimensi gambar harus sebagai berikut:
     <string name="settings_prompt_installer_on_install">Minta pemasang saat memasang aplikasi</string>
     <string name="settings_prompt_installer_on_install_description">Tampilkan dialog pemilihan pemasang setiap kali Anda memasang aplikasi yang ditambal</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Optimisasi baterai</string>
+    <string name="settings_system_battery_optimization_description">Mencegah sistem menghentikan patcher saat Morphe diminimalkan</string>
+    <string name="settings_system_battery_optimization_excluded">Dikecualikan</string>
+    <string name="settings_system_battery_optimization_not_excluded">Tidak dikecualikan</string>
     <string name="settings_system_performance">Performa</string>
     <string name="settings_system_process_runtime">Proses runtime</string>
     <string name="settings_system_process_runtime_description">Jalankan penambalan di proses terpisah untuk stabilitas yang lebih baik</string>

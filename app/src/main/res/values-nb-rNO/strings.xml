@@ -10,7 +10,7 @@
     <string name="home_app_show_hidden">Vis skjulte apper</string>
     <string name="home_app_no_hidden">Ingen skjulte apper</string>
     <string name="home_app_hidden_apps_title">Skjulte apper</string>
-    <string name="home_app_hidden_apps_hint">Trykk for å skjule</string>
+    <string name="home_app_hidden_apps_hint">Trykk for å slutte å skjule</string>
     <string name="android_11_bug_dialog_title">Android 11-feil</string>
     <string name="android_11_bug_dialog_description">Appinstallasjonstillatelse må gis på forhånd for å unngå en feil i Android 11-systemet som vil påvirke brukeropplevelsen negativt</string>
     <string name="deep_link_add_source_title">Legg til kilde</string>
@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Kunne ikke lese filen. Sjekk at \'Ekstern lagring\' ikke er batteribegrenset</string>
     <string name="home_invalid_apk_not_an_apk">Den valgte filen er ikke en gyldig APK-fil</string>
     <string name="home_invalid_apk_io_error">Kunne ikke åpne filen. Prøv igjen</string>
+    <string name="home_external_apk_expert_mode_required">Denne funksjonen er kun tilgjengelig i ekspertmodus</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Ekspertmodus</string>
     <string name="expert_mode_search">Søk etter patcher</string>
@@ -186,6 +187,7 @@ For de beste resultatene anbefaler denne appen å patche en &lt;b&gt;full APK-fi
     <string name="patch_option_enter_number">Skriv inn tall</string>
     <string name="patch_option_enter_decimal">Skriv inn desimaltall</string>
     <string name="patch_option_pick_folder">Velg mappe</string>
+    <string name="patch_option_pick_file">Velg fil</string>
     <string name="patch_option_list_duplicate">Denne verdien finnes allerede</string>
     <string name="patch_option_list_empty">Verdien kan ikke være tom</string>
     <string name="patch_option_list_empty_state">Ingen verdier lagt til ennå</string>
@@ -294,6 +296,10 @@ Avinstallering vil permanent slette alle appdata"</string>
     <string name="patcher_step_group_saving">Lagrer</string>
     <string name="patcher_step_write_patched">Skriver patchad APK-fil</string>
     <string name="patcher_step_sign_apk">Signerer patchad APK-fil</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Beskyttelse mot bakgrunnsoppdatering</string>
+    <string name="battery_optimization_dialog_description">Noen enheter kan stoppe oppdateringsprogrammet når appen minimeres. La Morphe kjøre uten batteribegrensninger for å sikre at oppdateringen fullføres pålitelig.</string>
+    <string name="battery_optimization_not_now">Ikke nå</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Patching pågår…</string>
     <string name="patcher_notification_text">Trykk for å gå tilbake til patcheren</string>
@@ -560,6 +566,10 @@ morphe_header_custom_dark.png
     <string name="settings_prompt_installer_on_install">Prompt installasjonsprogram ved installasjon</string>
     <string name="settings_prompt_installer_on_install_description">Vis installasjonsvalgdialog hver gang du installerer en patchet app</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Optimalisering av batteri</string>
+    <string name="settings_system_battery_optimization_description">Forhindrer at systemet stopper patchen når Morphe minimeres</string>
+    <string name="settings_system_battery_optimization_excluded">Ekskludert</string>
+    <string name="settings_system_battery_optimization_not_excluded">Ikke ekskludert</string>
     <string name="settings_system_performance">Ytelse</string>
     <string name="settings_system_process_runtime">Prosesskjøretid</string>
     <string name="settings_system_process_runtime_description">Kjør patching i en separat prosess for bedre stabilitet</string>

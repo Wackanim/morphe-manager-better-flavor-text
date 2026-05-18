@@ -132,6 +132,7 @@
     <string name="home_invalid_apk_unreadable">Tiedoston lukeminen epäonnistui. Tarkista, ettei ulkoisen tallennustilan akunkäyttöä ole rajoitettu.</string>
     <string name="home_invalid_apk_not_an_apk">Valittu tiedosto ei ole kelvollinen APK</string>
     <string name="home_invalid_apk_io_error">Tiedoston avaaminen epäonnistui. Yritä uudelleen</string>
+    <string name="home_external_apk_expert_mode_required">Tämä ominaisuus on käytettävissä vain asiantuntijatilassa</string>
     <!-- Home Screen - Dialog 4: Expert Mode Dialog -->
     <string name="expert_mode_title">Asiantuntijatila</string>
     <string name="expert_mode_search">Hae lisäosia</string>
@@ -185,6 +186,7 @@ Parhaan tuloksen saavuttamiseksi sovellus suosittelee &lt;b&gt;kokonaisen APK:n&
     <string name="patch_option_enter_number">Anna luku</string>
     <string name="patch_option_enter_decimal">Anna desimaaliluku</string>
     <string name="patch_option_pick_folder">Valitse kansio</string>
+    <string name="patch_option_pick_file">Valitse tiedosto</string>
     <string name="patch_option_list_duplicate">Tämä arvo on jo olemassa</string>
     <string name="patch_option_list_empty">Arvo ei voi olla tyhjä</string>
     <string name="patch_option_list_empty_state">Arvoja ei ole vielä lisätty</string>
@@ -293,6 +295,10 @@ Poistaminen poistaa pysyvästi kaikki sovelluksen tiedot."</string>
     <string name="patcher_step_group_saving">Tallennetaan</string>
     <string name="patcher_step_write_patched">Kirjoitetaan muokattua APK-tiedostoa</string>
     <string name="patcher_step_sign_apk">Allekirjoitetaan muokattua APK-tiedostoa</string>
+    <!-- Battery optimization pre-flight dialog -->
+    <string name="battery_optimization_dialog_title">Taustakorjaussuojaus</string>
+    <string name="battery_optimization_dialog_description">Jotkin laitteet saattavat pysäyttää korjausohjelman, kun sovellus minimoidaan. Salli Morphen toimia ilman virransäästörajoituksia varmistaaksesi, että korjaus suoritetaan luotettavasti.</string>
+    <string name="battery_optimization_not_now">Ei nyt</string>
     <!-- Patcher Screen - Patcher Worker -->
     <string name="patcher_notification_title">Muokkaus käynnissä…</string>
     <string name="patcher_notification_text">Palaa muokkaukseen napauttamalla</string>
@@ -559,6 +565,10 @@ Kuvien mittojen on oltava seuraavat:
     <string name="settings_prompt_installer_on_install">Kysy asennusohjelmaa asennettaessa</string>
     <string name="settings_prompt_installer_on_install_description">Näytä asennusohjelman valintaikkuna aina, kun asennat paikatun sovelluksen.</string>
     <!-- Settings - System Tab - Performance Section -->
+    <string name="settings_system_battery_optimization">Akun käytön optimointi</string>
+    <string name="settings_system_battery_optimization_description">Estää järjestelmää lopettamasta päivitysohjelmaa, kun Morphe on pienennettynä.</string>
+    <string name="settings_system_battery_optimization_excluded">Poissuljettu</string>
+    <string name="settings_system_battery_optimization_not_excluded">Ei poissuljettu</string>
     <string name="settings_system_performance">Suorituskyky</string>
     <string name="settings_system_process_runtime">Prosessin suoritus</string>
     <string name="settings_system_process_runtime_description">Suorita muokkaaminen erillisessä prosessissa paremman vakauden vuoksi</string>
