@@ -292,32 +292,34 @@ private fun LanguageSection(
             .find { it.code == appLanguage }
     }
 
-    SectionTitle(
-        text = stringResource(R.string.settings_appearance_app_language),
-        icon = Icons.Outlined.Language
-    )
+    Column(verticalArrangement = Arrangement.spacedBy(MorpheDefaults.ContentPadding)) {
+        SectionTitle(
+            text = stringResource(R.string.settings_appearance_app_language),
+            icon = Icons.Outlined.Language
+        )
 
-    RichSettingsItem(
-        onClick = onLanguageClick,
-        showBorder = true,
-        title = stringResource(R.string.settings_appearance_app_language_current),
-        subtitle = currentLanguage,
-        leadingContent = {
-            Surface(
-                shape = RoundedCornerShape(12.dp),
-                color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f),
-                modifier = Modifier.size(40.dp)
-            ) {
-                Box(contentAlignment = Alignment.Center) {
-                    Text(
-                        text = currentLanguageOption?.flag ?: "🌐",
-                        style = MaterialTheme.typography.titleLarge
-                    )
+        RichSettingsItem(
+            onClick = onLanguageClick,
+            showBorder = true,
+            title = stringResource(R.string.settings_appearance_app_language_current),
+            subtitle = currentLanguage,
+            leadingContent = {
+                Surface(
+                    shape = RoundedCornerShape(12.dp),
+                    color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f),
+                    modifier = Modifier.size(40.dp)
+                ) {
+                    Box(contentAlignment = Alignment.Center) {
+                        Text(
+                            text = currentLanguageOption?.flag ?: "🌐",
+                            style = MaterialTheme.typography.titleLarge
+                        )
+                    }
                 }
+            },
+            trailingContent = {
+                MorpheIcon(icon = Icons.Outlined.ChevronRight)
             }
-        },
-        trailingContent = {
-            MorpheIcon(icon = Icons.Outlined.ChevronRight)
-        }
-    )
+        )
+    }
 }
