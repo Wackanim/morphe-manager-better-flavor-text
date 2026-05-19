@@ -780,6 +780,7 @@ The image dimensions must be as follows:
     <string name="unmount">Unmount</string>
     <string name="unmounted">Unmounted</string>
     <string name="remount">Remount</string>
+    <string name="share">Share</string>
     <string name="install">Install</string>
     <string name="installed">Installed</string>
     <string name="reinstall">Reinstall</string>
