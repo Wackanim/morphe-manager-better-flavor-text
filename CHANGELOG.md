@@ -1,3 +1,13 @@
+# [1.18.0-dev.9](https://github.com/MorpheApp/morphe-manager/compare/v1.18.0-dev.8...v1.18.0-dev.9) (2026-05-20)
+
+
+### Features
+
+* Add toast feedback and tooltips to `MultiSelectBar` pill buttons ([fee8095](https://github.com/MorpheApp/morphe-manager/commit/fee8095098006baf327d31f0e995baf303eded3b))
+* Add toast feedback and tooltips to `SourceManagementSheet` pill buttons ([db2dd71](https://github.com/MorpheApp/morphe-manager/commit/db2dd71ffb433fda66c3cdaffb749c01ef618754))
+* Add tooltips to `ActionPillButton`s in APK and patch selection dialogs ([8dd77b4](https://github.com/MorpheApp/morphe-manager/commit/8dd77b4ddf4afd11bd9d755a3478841e7cb18508))
+* Scope drag handle to `BundleCardHeader` to prevent tooltip conflict ([2b34281](https://github.com/MorpheApp/morphe-manager/commit/2b34281c8f3faf655bbc1562be411cd60a087ac3))
+
 # [1.18.0-dev.8](https://github.com/MorpheApp/morphe-manager/compare/v1.18.0-dev.7...v1.18.0-dev.8) (2026-05-20)
 
 
