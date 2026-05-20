@@ -7,19 +7,14 @@ package app.morphe.manager.ui.screen.settings.system
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.BugReport
 import androidx.compose.material.icons.outlined.Key
+import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material.icons.outlined.SwapHoriz
-import androidx.compose.material3.Icon
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import app.morphe.manager.R
 import app.morphe.manager.ui.screen.shared.*
 import app.morphe.manager.ui.viewmodel.ImportExportViewModel
@@ -68,14 +63,7 @@ fun ImportExportSection(
 
                 // Manager Settings
                 ImportExportRow(
-                    leadingContent = {
-                        Icon(
-                            painter = painterResource(R.drawable.ic_notification),
-                            contentDescription = null,
-                            tint = MaterialTheme.colorScheme.primary,
-                            modifier = Modifier.size(24.dp)
-                        )
-                    },
+                    leadingContent = { MorpheIcon(icon = Icons.Outlined.Settings) },
                     title = stringResource(R.string.settings_system_morphe_settings),
                     description = stringResource(R.string.settings_system_import_manager_settings_description),
                     onImport = onImportSettings,
