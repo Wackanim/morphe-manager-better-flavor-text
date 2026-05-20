@@ -5,7 +5,6 @@ import android.content.ComponentName
 import android.content.Intent
 import android.content.ServiceConnection
 import android.os.IBinder
-import android.os.Process.myUid
 import android.os.SystemClock
 import app.morphe.manager.IRootSystemService
 import app.morphe.manager.service.ManagerRootService
@@ -30,7 +29,6 @@ class RootInstaller(
     private var cachedHasRoot: Boolean? = null
     @Volatile
     private var lastRootCheck = 0L
-    private val userId = myUid() / 100000
 
     override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
         val ipc = IRootSystemService.Stub.asInterface(service)
@@ -168,13 +166,14 @@ class RootInstaller(
 
             if (needsInstall) {
                 if (installedInfo != null)
-                    execute("pm uninstall -k --user $userId $packageName").assertSuccess("Failed to uninstall stock app")
+                    execute("pm uninstall -k $packageName").assertSuccess("Failed to uninstall stock app")
                 // 'pm install' fails on files inside the app's private data directory on
                 // Android 14+ due to SELinux restrictions. Copy to /data/local/tmp/ first,
-                // which is always accessible to the package installer
+                // which is always accessible to the package installer.
+                // -r allows replacement of an existing package; -d allows version downgrade.
                 val tempApk = "/data/local/tmp/${packageName}_morphe_stock.apk"
                 execute("cp \"${stockApp.absolutePath}\" \"$tempApk\"").assertSuccess("Failed to copy stock APK to temp location")
-                val installResult = execute("pm install \"$tempApk\"")
+                val installResult = execute("pm install -r -d \"$tempApk\"")
                 execute("rm -f \"$tempApk\"")
                 installResult.assertSuccess("Failed to install stock app")
             }
