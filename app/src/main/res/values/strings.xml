@@ -213,30 +213,43 @@ For the best results, this app recommends patching a &lt;b&gt;full APK&lt;/b&gt;
 
     <!-- Adaptive Icon Creator -->
     <string name="adaptive_icon_create">Create adaptive icon</string>
-    <string name="adaptive_icon_instructions">Choose a foreground image, select a background color, then use the slider or pinch gestures to adjust the preview</string>
-    <string name="adaptive_icon_preview">Adaptive icon preview</string>
-    <string name="adaptive_icon_preview_hint">For the best result, keep your icon within the solid inner circle</string>
     <string name="adaptive_icon_select_image">Select image</string>
     <string name="adaptive_icon_change_image">Change image</string>
     <string name="adaptive_icon_background_color">Background color</string>
     <string name="adaptive_icon_reset_transform">Reset position and scale</string>
     <string name="adaptive_icon_safe_zone_inner">Safe zone (always visible)</string>
     <string name="adaptive_icon_safe_zone_outer">Mask zone (may be clipped)</string>
+    <string name="adaptive_icon_no_transparency_warning">Image has no transparent pixels. The result may look incorrect</string>
     <string name="adaptive_icon_created_success">Adaptive icon created successfully</string>
     <string name="adaptive_icon_creation_failed">Failed to create adaptive icon</string>
-    <string name="adaptive_icon_folder_explanation">Select where to create \'%1$s/%2$s\' folder with generated icon files</string>
-    <string name="notification_icon_preview">Notification icon preview</string>
-    <string name="notification_icon_preview_hint">Use the slider to resize. Drag to reposition</string>
+    <string name="adaptive_icon_label">Adaptive</string>
+    <string name="adaptive_icon_monochrome_label">Monochrome</string>
+    <string name="adaptive_icon_guide">Icon creation guide</string>
+    <string name="adaptive_icon_guide_png_title">Use a PNG with a transparent background</string>
+    <string name="adaptive_icon_guide_png_body">The foreground must be a PNG file with a transparent background. A solid-colored background will look incorrect - the background color should come from the background picker below.</string>
+    <string name="adaptive_icon_guide_safe_zones_title">Safe zones</string>
+    <string name="adaptive_icon_guide_safe_zones_body">"Inner zone (solid): content is always fully visible on all launcher shapes.
+Outer zone (dashed): may be clipped by the launcher mask - keep important details inside the inner zone."</string>
+    <string name="adaptive_icon_guide_notification_title">Notification icon</string>
+    <string name="adaptive_icon_guide_notification_body">Generated automatically from the foreground image. Adjust its size using the Notification slider. All visible content appears white in the status bar.</string>
+    <string name="adaptive_icon_guide_monochrome_title">Monochrome icon</string>
+    <string name="adaptive_icon_guide_monochrome_body">Generated automatically from the foreground image using the same adaptive icon transforms. It appears tinted with the wallpaper accent color on Android 13 and later.</string>
+    <string name="notification_icon_preview">Notification</string>
 
     <!-- Header Creator -->
     <string name="header_creator_create">Create custom header</string>
-    <string name="header_creator_instructions">Choose images for light and dark themes, then adjust with pinch-to-zoom gestures</string>
     <string name="header_creator_light_theme">Light theme header</string>
     <string name="header_creator_dark_theme">Dark theme header</string>
     <string name="header_creator_no_image">No image selected</string>
     <string name="header_creator_success">Header created successfully</string>
     <string name="header_creator_failed">Failed to create header</string>
-    <string name="header_creator_folder_explanation">Select where to create \'%1$s/%2$s\' folder with generated header files</string>
+    <string name="header_creator_guide">Header creation guide</string>
+    <string name="header_creator_guide_image_title">Image requirements</string>
+    <string name="header_creator_guide_image_body">Use any image file (PNG or JPEG). For best results, use a wide-format image with an approximately 2.7:1 aspect ratio. PNG files with transparent backgrounds will blend naturally with the app theme.</string>
+    <string name="header_creator_guide_themes_title">Light and dark themes</string>
+    <string name="header_creator_guide_themes_body">Most apps require separate images for the light and dark themes. Some apps (such as YouTube Music) only use the dark theme, so only that section is shown.</string>
+    <string name="header_creator_guide_positioning_title">Positioning and scaling</string>
+    <string name="header_creator_guide_positioning_body">Use pinch-to-zoom and drag gestures directly in the preview to position and scale your image. Snap guides appear when the image is near the center. You can also use the slider below the preview.</string>
 
     <!-- Home Screen - App Info Screen -->
     <string name="home_app_info_uninstall_app_confirmation">Are you sure you want to uninstall this app?</string>
