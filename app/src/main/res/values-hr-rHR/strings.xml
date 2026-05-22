@@ -57,13 +57,18 @@
     <string name="sources_management_title">Izvori patcheva</string>
     <string name="sources_management_open_in_browser">Otvori u pregledniku</string>
     <string name="sources_management_failed_to_open_url">Nije moguće otvoriti poveznicu</string>
+    <string name="sources_management_prerelease_toggle">Pre-release patchevi</string>
     <string name="sources_management_prerelease_toggle_description">Primite rani pristup novoj verziji eksperimentalnih patcheva</string>
+    <string name="sources_management_experimental_versions_toggle">Eksperimentalne verzije aplikacije</string>
     <string name="sources_management_experimental_versions_toggle_description">Patchaj eksperimentalne ciljeve aplikacije ako su dostupni</string>
     <string name="sources_management_already_exists">Ovaj izvor je već dodan</string>
     <string name="sources_management_invalid_url">Nevažeći izvor poveznice. Molimo provjerite adresu i pokušajte ponovno</string>
     <string name="sources_management_metadata_unavailable">Metapodaci N/A</string>
     <string name="sources_management_metadata_unavailable_hint">Datoteka udaljenih metapodataka nije dostupna. Patchanje s instaliranim paketom i dalje radi, ali automatsko ažuriranje je onemogućeno za ovaj izvor</string>
     <string name="sources_management_metadata_unavailable_hint_missing">Paket patcheva nije moguće preuzeti. Izvorna poveznica možda nije ispravna ili datoteka ne postoji.</string>
+    <string name="sources_management_source_enabled">Izvor omogućen</string>
+    <string name="sources_management_source_disabled">Izvor onemogućen</string>
+    <string name="sources_management_source_updating">Ažuriranje izvora</string>
     <!-- Home Screen - Sources Dialogs -->
     <string name="sources_dialog_display_name">Prikaži naziv</string>
     <string name="sources_dialog_rename">Preimenuj izvor patcha</string>
@@ -201,9 +206,22 @@ Za najbolje rezultate,  patchanje ove aplikacija preporučuje &lt;b&gt;cijeli AP
     <string name="adaptive_icon_reset_transform">Poništi poziciju i skalu</string>
     <string name="adaptive_icon_safe_zone_inner">Sigurno područje (uvijek vidljivo)</string>
     <string name="adaptive_icon_safe_zone_outer">Skriveno područje  (može biti isječeno)</string>
+    <string name="adaptive_icon_no_transparency_warning">Slika nema prozirnih piksela. Rezultat može izgledati netočno.</string>
     <string name="adaptive_icon_created_success">Uspješno stvorena adaptivna ikona</string>
     <string name="adaptive_icon_creation_failed">Nije moguće stvoriti adaptivnu ikonu</string>
+    <string name="adaptive_icon_label">Prilagodljive</string>
+    <string name="adaptive_icon_monochrome_label">Monokromatski</string>
+    <string name="adaptive_icon_guide">Vodič za izradu ikona</string>
+    <string name="adaptive_icon_guide_png_title">Koristite PNG s prozirnom pozadinom</string>
+    <string name="adaptive_icon_guide_png_body">Prednji plan mora biti PNG datoteka s prozirnom pozadinom. Jednobojna pozadina izgledat će nepravilno - boja pozadine treba biti odabrana iz alata za odabir pozadine u nastavku.</string>
+    <string name="adaptive_icon_guide_safe_zones_title">Sigurne zone</string>
+    <string name="adaptive_icon_guide_safe_zones_body">"Unutarnja zona (puna): sadržaj je uvijek u potpunosti vidljiv na svim oblicima pokretača.
+Vanjska zona (isprekidana): može biti odrezana maskom pokretača - važne detalje zadržite unutar unutarnje zone."</string>
     <string name="adaptive_icon_guide_notification_title">Ikona obavijesti</string>
+    <string name="adaptive_icon_guide_notification_body">Automatski generirano iz slike u prvom planu. Prilagodite veličinu pomoću klizača Obavijesti. Sav vidljivi sadržaj prikazuje se bijelom bojom u statusnoj traci.</string>
+    <string name="adaptive_icon_guide_monochrome_title">Monokromatska ikona</string>
+    <string name="adaptive_icon_guide_monochrome_body">Generirano automatski iz prednje slike koristeći iste transformacije adaptivne ikone. Izgleda nijansiranim bojom akcenta pozadine na Androidu 13 i novijim verzijama.</string>
+    <string name="notification_icon_preview">Obavijest</string>
     <!-- Header Creator -->
     <string name="header_creator_create">Stvori prilagođeno zaglavlje</string>
     <string name="header_creator_light_theme">Svijetla tema zaglavlja</string>
@@ -211,6 +229,13 @@ Za najbolje rezultate,  patchanje ove aplikacija preporučuje &lt;b&gt;cijeli AP
     <string name="header_creator_no_image">Nije odabrana nijedna slika</string>
     <string name="header_creator_success">Zaglavlje uspješno stvoreno</string>
     <string name="header_creator_failed">Nije moguće stvoriti zaglavlje</string>
+    <string name="header_creator_guide">Vodič za kreiranje zaglavlja</string>
+    <string name="header_creator_guide_image_title">Zahtjevi za slike</string>
+    <string name="header_creator_guide_image_body">Koristite bilo koju slikovnu datoteku (PNG ili JPEG). Za najbolje rezultate, koristite sliku širokog formata s omjerom stranica od približno 2,7:1. PNG datoteke s transparentnom pozadinom prirodno će se uklopiti u temu aplikacije.</string>
+    <string name="header_creator_guide_themes_title">Svijetle i tamne teme</string>
+    <string name="header_creator_guide_themes_body">Većina aplikacija zahtijeva odvojene slike za svjietlu i tamnu temu. Neke aplikacije (kao YouTube Music) koriste samo tamnu temu, pa se prikazuje samo taj odabir.</string>
+    <string name="header_creator_guide_positioning_title">Pozicioniranje i skaliranje</string>
+    <string name="header_creator_guide_positioning_body">Koristite geste zumiranja i povlačenja izravno u pregledu kako biste pozicionirali i skalirali svoju sliku. Vodiči za snimanje pojavljuju se kada je slika blizu središta. Možete koristiti i klizač ispod pregleda.</string>
     <!-- Home Screen - App Info Screen -->
     <string name="home_app_info_uninstall_app_confirmation">Jeste li sigurni da želite deinstalirati ovu aplikaciju?</string>
     <string name="home_app_info_remove_app_warning">Ovo će trajno izbrisati:</string>
@@ -678,7 +703,9 @@ Dimenzije slike moraju biti sljedeće:
     <string name="selected">Odabrano</string>
     <string name="not_selected">Nije odabrano</string>
     <string name="select_all">Odaberite sve</string>
+    <string name="select_all_done">Sve odabrano</string>
     <string name="deselect_all">Poništi odabir</string>
+    <string name="deselect_all_done">Sve odabrano poništeno</string>
     <string name="rename">Preimenuj</string>
     <string name="import_">Uvezi</string>
     <string name="export">Izvezi</string>

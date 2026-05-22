@@ -29,7 +29,7 @@
     <string name="home_sources_are_loading">Carregando fontes, por favor aguarde…</string>
     <string name="home_search_apps">Pesquisar apps</string>
     <string name="home_no_apps_title">Nenhum app disponível</string>
-    <string name="home_no_apps_subtitle">Adicione uma fonte de correção ou habilite uma existente em %s</string>
+    <string name="home_no_apps_subtitle">Adicione uma fonte de patches ou habilite uma existente em %s</string>
     <string name="home_no_apps_search_subtitle">Nenhum app corresponde a \"%s\"</string>
     <string name="home_all_apps_hidden_title">Todos os apps estão ocultos</string>
     <string name="home_all_apps_hidden_subtitle">Você ocultou todos os apps da tela inicial</string>
@@ -38,7 +38,7 @@
     <!-- Humorous hype message with light nostalgia -->
     <string name="home_greeting_2">Pronto para tornar apps lendários de novo?</string>
     <!-- "Buckle up" referring to fastening your vehicle seat belt. A light-hearted joke to build excitement -->
-    <string name="home_greeting_3">Aperte o cinto, é hora de patchar</string>
+    <string name="home_greeting_3">Aperte o cinto, é hora de patchear</string>
     <!-- Sarcastic joke about blocking ads, intentionally over-the-top -->
     <string name="home_greeting_4">Mais um dia, mais uma obra-prima com anúncios bloqueados</string>
     <!-- "Watch ads" refers to watching video ads in unpatched apps -->
@@ -46,7 +46,7 @@
     <!-- Friendly, slightly mischievous joke about controlling app behavior -->
     <string name="home_greeting_6">Vamos fazer seus apps se comportarem</string>
     <!-- Whimsical forecast-style joke, not meant literally -->
-    <string name="home_greeting_7" formatted="false">Previsão de hoje: 100% de chance de correção</string>
+    <string name="home_greeting_7" formatted="false">Previsão de hoje: 100% de chance de patch</string>
     <!-- From mediocrity to amazing -->
     <string name="home_greeting_8">Pronto para transformar o frustrante em sensacional?</string>
     <!-- Playful exaggeration, making patching feel heroic -->
@@ -71,7 +71,7 @@
     <string name="sources_management_source_updating">Atualizando fonte</string>
     <!-- Home Screen - Sources Dialogs -->
     <string name="sources_dialog_display_name">Nome de exibição</string>
-    <string name="sources_dialog_rename">Renomear origem de correção</string>
+    <string name="sources_dialog_rename">Renomear origem de patch</string>
     <string name="sources_dialog_duplicate_name_error">Já existe uma origem de patch com esse nome</string>
     <string name="sources_dialog_missing_error">Não foi possível atualizar esta fonte de patch.</string>
     <string name="sources_dialog_view_any_version">Qualquer versão</string>
