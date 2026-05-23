@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-05-23T16:59:48",
-  "description": "# [1.19.0-dev.4](https://github.com/MorpheApp/morphe-manager/compare/v1.19.0-dev.3...v1.19.0-dev.4) (2026-05-23)\n\n\n### Bug Fixes\n\n* Back gesture closes search before navigating in file picker ([2e7b9c1](https://github.com/MorpheApp/morphe-manager/commit/2e7b9c168d003a1347f6a48c2a2f7c9d2ba88408))\n* Delay focus request so keyboard animates smoothly in release builds ([c1f7145](https://github.com/MorpheApp/morphe-manager/commit/c1f7145c8cbc49cb464841b3bb6c3079be84ce31))",
-  "download_url": "https://github.com/MorpheApp/morphe-manager/releases/download/v1.19.0-dev.4/morphe-manager-1.19.0-dev.4.apk",
-  "signature_download_url": "https://github.com/MorpheApp/morphe-manager/releases/download/v1.19.0-dev.4/morphe-manager-1.19.0-dev.4.apk.asc",
-  "version": "1.19.0-dev.4"
+  "created_at": "2026-05-23T22:47:15",
+  "description": "# [1.19.0-dev.5](https://github.com/MorpheApp/morphe-manager/compare/v1.19.0-dev.4...v1.19.0-dev.5) (2026-05-23)\n\n\n### Bug Fixes\n\n* Align APK and split APK icon sizes in file picker ([29858a8](https://github.com/MorpheApp/morphe-manager/commit/29858a82c3bb193a6e142f2b3f2fc92b42ae2282))\n* Filter only JSON files in patch selections import custom file picker ([248849a](https://github.com/MorpheApp/morphe-manager/commit/248849a08575090daf65a43720badf2e9ca15174))\n\n\n### Features\n\n* Add file-type icons for keystores and JSON in file picker ([0a0ed51](https://github.com/MorpheApp/morphe-manager/commit/0a0ed51d35db010b42429b90e2c32367bec0712b))\n* Select file immediately on tap in file picker ([80070b8](https://github.com/MorpheApp/morphe-manager/commit/80070b85f95ae7026a72b60eea57e17d3026d25c))\n* Show icons for `.apkm` and `.xapk` files in file picker ([b1a6ee2](https://github.com/MorpheApp/morphe-manager/commit/b1a6ee24718b3c1433a0126eb2bb4e2117a75ed9))",
+  "download_url": "https://github.com/MorpheApp/morphe-manager/releases/download/v1.19.0-dev.5/morphe-manager-1.19.0-dev.5.apk",
+  "signature_download_url": "https://github.com/MorpheApp/morphe-manager/releases/download/v1.19.0-dev.5/morphe-manager-1.19.0-dev.5.apk.asc",
+  "version": "1.19.0-dev.5"
 }
