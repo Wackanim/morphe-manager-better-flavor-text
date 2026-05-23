@@ -1,3 +1,15 @@
+# [1.19.0-dev.1](https://github.com/MorpheApp/morphe-manager/compare/v1.18.0...v1.19.0-dev.1) (2026-05-23)
+
+
+### Bug Fixes
+
+* Remove notification sound feedback on patching completion ([b0b5e94](https://github.com/MorpheApp/morphe-manager/commit/b0b5e9478418ab0e75d518d63c7ac30b0e33d003))
+
+
+### Features
+
+* Add built-in file picker ([#576](https://github.com/MorpheApp/morphe-manager/issues/576)) ([85191a8](https://github.com/MorpheApp/morphe-manager/commit/85191a86a6ba5ac745c63779a3bbd6966bff5434))
+
 # [1.18.0](https://github.com/MorpheApp/morphe-manager/compare/v1.17.1...v1.18.0) (2026-05-22)
 
 
