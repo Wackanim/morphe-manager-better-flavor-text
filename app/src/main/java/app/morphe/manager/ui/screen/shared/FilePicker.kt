@@ -239,6 +239,13 @@ fun FilePicker(
         segments
     }
 
+    val displayPath = remember(breadcrumbs) {
+        when {
+            breadcrumbs.size <= 2 -> breadcrumbs.joinToString(" / ") { it.first }
+            else -> "… / " + breadcrumbs.takeLast(2).joinToString(" / ") { it.first }
+        }
+    }
+
     val sortedContents = remember(dirContents, sortMode) { applySort(dirContents, sortMode) }
     val displayedContents = remember(sortedContents, searchQuery) {
         if (searchQuery.isBlank()) sortedContents
@@ -394,7 +401,7 @@ fun FilePicker(
             if (currentDir != null) {
                 Box {
                     Text(
-                        text = currentDir!!.absolutePath,
+                        text = displayPath,
                         style = MaterialTheme.typography.labelSmall,
                         color = LocalDialogSecondaryTextColor.current,
                         maxLines = 1,
