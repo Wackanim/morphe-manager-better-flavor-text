@@ -51,6 +51,7 @@ import app.morphe.manager.util.PM
 import app.morphe.manager.util.formatBytes
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.koin.compose.koinInject
@@ -253,10 +254,13 @@ fun FilePicker(
         }
     }
 
-    // null = still loading; resets to null automatically when currentDir/refreshKey change
-    val dirContents by produceState<List<File>?>(initialValue = null, currentDir, refreshKey) {
-        value = currentDir?.let { listDir(it, allowedExtensions) } ?: emptyList()
-        currentDir?.absolutePath?.let { prefs.lastFilePickerPath.update(it) }
+    // key() disposes and recreates the State in the same frame currentDir/refreshKey change,
+    // guaranteeing dirContents is null (loading) before the producer runs
+    val dirContents by key(currentDir, refreshKey) {
+        produceState<List<File>?>(initialValue = null) {
+            value = currentDir?.let { listDir(it, allowedExtensions) } ?: emptyList()
+            currentDir?.absolutePath?.let { prefs.lastFilePickerPath.update(it) }
+        }
     }
 
     val sortedContents = remember(dirContents, sortMode) { dirContents?.let { applySort(it, sortMode) } ?: emptyList() }
@@ -266,7 +270,13 @@ fun FilePicker(
     }
 
     LaunchedEffect(showSearch) {
-        if (showSearch) searchFocusRequester.requestFocus()
+        if (showSearch) {
+            searchFocusRequester.requestFocus()
+        } else {
+            // Clear query only after the exit animation finishes so the text doesn't flash away
+            delay(MorpheDefaults.ANIMATION_DURATION.toLong())
+            searchQuery = ""
+        }
     }
 
     // Clear search when navigating to a different directory
@@ -289,7 +299,7 @@ fun FilePicker(
     MorpheDialog(
         onDismissRequest = {
             when {
-                showSearch -> { showSearch = false; searchQuery = "" }
+                showSearch -> { showSearch = false }
                 currentDir != null -> navigateBack()
                 else -> onDismiss()
             }
@@ -315,7 +325,7 @@ fun FilePicker(
                         modifier = Modifier.fillMaxWidth(),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        IconButton(onClick = { showSearch = false; searchQuery = "" }) {
+                        IconButton(onClick = { showSearch = false }) {
                             Icon(
                                 imageVector = Icons.AutoMirrored.Outlined.ArrowBack,
                                 contentDescription = null,
