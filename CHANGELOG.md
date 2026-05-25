@@ -1,3 +1,10 @@
+# [1.19.0-dev.11](https://github.com/MorpheApp/morphe-manager/compare/v1.19.0-dev.10...v1.19.0-dev.11) (2026-05-25)
+
+
+### Features
+
+* Persist mini-game high scores across sessions ([510b526](https://github.com/MorpheApp/morphe-manager/commit/510b526560a857311f3cc61bb0da7e2c6ab05d40))
+
 # [1.19.0-dev.10](https://github.com/MorpheApp/morphe-manager/compare/v1.19.0-dev.9...v1.19.0-dev.10) (2026-05-25)
 
 
