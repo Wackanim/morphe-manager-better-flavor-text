@@ -1,3 +1,10 @@
+# [1.19.0-dev.13](https://github.com/MorpheApp/morphe-manager/compare/v1.19.0-dev.12...v1.19.0-dev.13) (2026-05-27)
+
+
+### Bug Fixes
+
+* Show SD card in file picker and debug logs ([7424cd0](https://github.com/MorpheApp/morphe-manager/commit/7424cd00bc0506c244f385005e85e0fe045d74fe))
+
 # [1.19.0-dev.12](https://github.com/MorpheApp/morphe-manager/compare/v1.19.0-dev.11...v1.19.0-dev.12) (2026-05-27)
 
 
