@@ -149,14 +149,6 @@ fun ShimmerChangelog(
                 }
             }
         }
-
-        Spacer(modifier = Modifier.height(8.dp))
-
-        // Date/author info
-        ShimmerText(
-            widthFraction = 0.3f,
-            height = 12.dp
-        )
     }
 }
 
