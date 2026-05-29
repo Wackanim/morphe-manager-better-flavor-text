@@ -22,6 +22,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
+import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
@@ -38,8 +39,14 @@ fun ShimmerBox(
     baseAlpha: Float = 0.2f
 ) {
     val onSurface = MaterialTheme.colorScheme.onSurface
+    val surface = MaterialTheme.colorScheme.surface
     val resolvedBaseColor = if (baseColor == Color.Unspecified) onSurface else baseColor
-    val resolvedShimmerColor = if (shimmerColor == Color.Unspecified) onSurface.copy(alpha = 0.35f) else shimmerColor
+    // The shimmer band must be lighter than the base. In dark theme onSurface is light so it works
+    // directly; in light theme surface is lighter, so use it instead to produce a bright glint
+    val resolvedShimmerColor = if (shimmerColor == Color.Unspecified) {
+        if (surface.luminance() > onSurface.luminance()) surface.copy(alpha = 0.7f)
+        else onSurface.copy(alpha = 0.35f)
+    } else shimmerColor
 
     val infiniteTransition = rememberInfiniteTransition(label = "shimmer")
 
@@ -173,8 +180,7 @@ fun ShimmerChangelogHeader() {
             ShimmerBox(
                 modifier = Modifier.size(56.dp),
                 shape = CircleShape,
-                baseColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f),
-                shimmerColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.25f)
+                baseColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
             )
 
             // Text shimmer
