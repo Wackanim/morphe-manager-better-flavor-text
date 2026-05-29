@@ -1,3 +1,17 @@
+# [1.20.0](https://github.com/MorpheApp/morphe-manager/compare/v1.19.1...v1.20.0) (2026-05-29)
+
+
+### Bug Fixes
+
+* Center success icon and text in landscape two-column layout ([3189c05](https://github.com/MorpheApp/morphe-manager/commit/3189c05ef75c9b2c9933e124c24d43f5f209b18b))
+* Correct shimmer highlight direction in light theme ([0639ccb](https://github.com/MorpheApp/morphe-manager/commit/0639ccb224e813781b7ca029d630eb1e64a6300c))
+* Enable legacy external storage for file picker on Android 10 ([5c770fe](https://github.com/MorpheApp/morphe-manager/commit/5c770fed342fe4dcf43f7be7d7cf408e96915e31))
+
+
+### Features
+
+* Replace horizontal shimmer with diagonal sweep animation ([c658185](https://github.com/MorpheApp/morphe-manager/commit/c658185690b0a4c0940b11f0089c6573a00461bc))
+
 ## [1.19.1](https://github.com/MorpheApp/morphe-manager/compare/v1.19.0...v1.19.1) (2026-05-29)
 
 

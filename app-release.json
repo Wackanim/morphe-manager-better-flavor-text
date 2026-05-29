@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-05-29T13:15:07",
-  "description": "## [1.19.1](https://github.com/MorpheApp/morphe-manager/compare/v1.19.0...v1.19.1) (2026-05-29)\n\n\n### Bug Fixes\n\n* Bundle changelog shimmer, parsing freeze, and scroll-reload ([ba9b762](https://github.com/MorpheApp/morphe-manager/commit/ba9b762a96eeecd0245c96c6baf739ba78ff9fba))\n* Correct release page URL format for GitLab ([df23aa6](https://github.com/MorpheApp/morphe-manager/commit/df23aa6774ed052c2b641a21517c49909b7d54a2))\n* Distinguish file picker read errors from empty directories on Android 11+ ([e181417](https://github.com/MorpheApp/morphe-manager/commit/e181417019239408b23a9a075b42e9399323eb23))\n* Limit dev changelog parsing and display to recent entries ([9f3e108](https://github.com/MorpheApp/morphe-manager/commit/9f3e1089cfca5c426077d045c738e9de352e2688))\n* Scale shimmer gradient to component width ([a101524](https://github.com/MorpheApp/morphe-manager/commit/a101524ac21976db11b8b826be3ae5b30c16c49d))",
-  "download_url": "https://github.com/MorpheApp/morphe-manager/releases/download/v1.19.1/morphe-manager-1.19.1.apk",
-  "signature_download_url": "https://github.com/MorpheApp/morphe-manager/releases/download/v1.19.1/morphe-manager-1.19.1.apk.asc",
-  "version": "1.19.1"
+  "created_at": "2026-05-29T15:21:39",
+  "description": "# [1.20.0](https://github.com/MorpheApp/morphe-manager/compare/v1.19.1...v1.20.0) (2026-05-29)\n\n\n### Bug Fixes\n\n* Center success icon and text in landscape two-column layout ([3189c05](https://github.com/MorpheApp/morphe-manager/commit/3189c05ef75c9b2c9933e124c24d43f5f209b18b))\n* Correct shimmer highlight direction in light theme ([0639ccb](https://github.com/MorpheApp/morphe-manager/commit/0639ccb224e813781b7ca029d630eb1e64a6300c))\n* Enable legacy external storage for file picker on Android 10 ([5c770fe](https://github.com/MorpheApp/morphe-manager/commit/5c770fed342fe4dcf43f7be7d7cf408e96915e31))\n\n\n### Features\n\n* Replace horizontal shimmer with diagonal sweep animation ([c658185](https://github.com/MorpheApp/morphe-manager/commit/c658185690b0a4c0940b11f0089c6573a00461bc))",
+  "download_url": "https://github.com/MorpheApp/morphe-manager/releases/download/v1.20.0/morphe-manager-1.20.0.apk",
+  "signature_download_url": "https://github.com/MorpheApp/morphe-manager/releases/download/v1.20.0/morphe-manager-1.20.0.apk.asc",
+  "version": "1.20.0"
 }
