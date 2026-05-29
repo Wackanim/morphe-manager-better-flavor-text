@@ -1,3 +1,14 @@
+## [1.19.1](https://github.com/MorpheApp/morphe-manager/compare/v1.19.0...v1.19.1) (2026-05-29)
+
+
+### Bug Fixes
+
+* Bundle changelog shimmer, parsing freeze, and scroll-reload ([ba9b762](https://github.com/MorpheApp/morphe-manager/commit/ba9b762a96eeecd0245c96c6baf739ba78ff9fba))
+* Correct release page URL format for GitLab ([df23aa6](https://github.com/MorpheApp/morphe-manager/commit/df23aa6774ed052c2b641a21517c49909b7d54a2))
+* Distinguish file picker read errors from empty directories on Android 11+ ([e181417](https://github.com/MorpheApp/morphe-manager/commit/e181417019239408b23a9a075b42e9399323eb23))
+* Limit dev changelog parsing and display to recent entries ([9f3e108](https://github.com/MorpheApp/morphe-manager/commit/9f3e1089cfca5c426077d045c738e9de352e2688))
+* Scale shimmer gradient to component width ([a101524](https://github.com/MorpheApp/morphe-manager/commit/a101524ac21976db11b8b826be3ae5b30c16c49d))
+
 # [1.19.0](https://github.com/MorpheApp/morphe-manager/compare/v1.18.0...v1.19.0) (2026-05-29)
 
 
