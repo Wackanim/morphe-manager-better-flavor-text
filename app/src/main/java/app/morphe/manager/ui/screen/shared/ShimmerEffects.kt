@@ -38,23 +38,21 @@ fun ShimmerBox(
     baseAlpha: Float = 0.2f
 ) {
     val onSurface = MaterialTheme.colorScheme.onSurface
-    val resolvedBaseColor = if (baseColor == Color.Unspecified) onSurface.copy(alpha = 0.1f) else baseColor
-    val resolvedShimmerColor = if (shimmerColor == Color.Unspecified) onSurface.copy(alpha = 0.3f) else shimmerColor
+    val resolvedBaseColor = if (baseColor == Color.Unspecified) onSurface else baseColor
+    val resolvedShimmerColor = if (shimmerColor == Color.Unspecified) onSurface.copy(alpha = 0.35f) else shimmerColor
 
     val infiniteTransition = rememberInfiniteTransition(label = "shimmer")
 
-    // Shimmer animation
-    val shimmerOffset by infiniteTransition.animateFloat(
-        initialValue = -1f,
-        targetValue = 2f,
+    val shimmerProgress by infiniteTransition.animateFloat(
+        initialValue = 0f,
+        targetValue = 1f,
         animationSpec = infiniteRepeatable(
-            animation = tween(1500, easing = LinearEasing),
+            animation = tween(1200, easing = LinearEasing),
             repeatMode = RepeatMode.Restart
         ),
-        label = "shimmer_offset"
+        label = "shimmer_progress"
     )
 
-    // Pulse animation for subtle breathing effect
     val pulseAlpha by infiniteTransition.animateFloat(
         initialValue = baseAlpha,
         targetValue = baseAlpha + 0.1f,
@@ -65,32 +63,21 @@ fun ShimmerBox(
         label = "pulse_alpha"
     )
 
-    Box(
-        modifier = modifier
-            .clip(shape)
-    ) {
-        // Base gradient background
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(resolvedBaseColor.copy(alpha = pulseAlpha))
-        )
+    BoxWithConstraints(modifier = modifier.clip(shape)) {
+        val width = constraints.maxWidth.toFloat()
+        val bandWidth = width * 0.7f
+        // Sweep from just off-screen left to just off-screen right
+        val startX = shimmerProgress * (width + bandWidth) - bandWidth
 
-        // Shimmer overlay
+        Box(modifier = Modifier.fillMaxSize().background(resolvedBaseColor.copy(alpha = pulseAlpha)))
         Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(
-                    brush = Brush.linearGradient(
-                        colors = listOf(
-                            Color.Transparent,
-                            resolvedShimmerColor,
-                            Color.Transparent
-                        ),
-                        start = Offset(shimmerOffset * 1000, 0f),
-                        end = Offset((shimmerOffset + 1f) * 1000, 0f)
-                    )
+            modifier = Modifier.fillMaxSize().background(
+                brush = Brush.linearGradient(
+                    colors = listOf(Color.Transparent, resolvedShimmerColor, Color.Transparent),
+                    start = Offset(startX, 0f),
+                    end = Offset(startX + bandWidth, 0f)
                 )
+            )
         )
     }
 }

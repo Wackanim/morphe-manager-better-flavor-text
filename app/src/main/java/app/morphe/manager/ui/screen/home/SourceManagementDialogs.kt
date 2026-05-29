@@ -11,7 +11,11 @@ import android.graphics.Color.colorToHSV
 import android.net.Uri
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
 import androidx.compose.animation.core.tween
@@ -1249,17 +1253,30 @@ fun BundleChangelogDialog(
             }
         }
     ) {
-        AnimatedContent(
-            targetState = state,
-            transitionSpec = MorpheAnimations.fadeCrossfade(),
-            contentKey = { it::class },
-            label = "changelog_content"
-        ) { current ->
-            when (current) {
-                BundleChangelogState.Loading -> ChangelogSectionLoading()
-                is BundleChangelogState.Error -> BundleChangelogError(error = current.throwable)
+        BundleChangelogContent(state)
+    }
+}
+
+@Composable
+private fun BundleChangelogContent(state: BundleChangelogState) {
+    Box(modifier = Modifier.fillMaxWidth()) {
+        AnimatedVisibility(
+            visible = state is BundleChangelogState.Loading,
+            enter = EnterTransition.None,
+            exit = fadeOut()
+        ) {
+            ChangelogSectionLoading()
+        }
+        AnimatedVisibility(
+            visible = state !is BundleChangelogState.Loading,
+            enter = fadeIn(),
+            exit = ExitTransition.None
+        ) {
+            when (state) {
+                BundleChangelogState.Loading -> {}
+                is BundleChangelogState.Error -> BundleChangelogError(error = state.throwable)
                 is BundleChangelogState.Entries -> ChangelogEntriesList(
-                    entries = current.entries,
+                    entries = state.entries,
                     headerIcon = Icons.Outlined.History,
                     emptyText = stringResource(R.string.changelog_empty),
                     textColor = LocalDialogTextColor.current
