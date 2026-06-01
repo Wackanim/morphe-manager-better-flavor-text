@@ -1,3 +1,10 @@
+# [1.21.0-dev.2](https://github.com/MorpheApp/morphe-manager/compare/v1.21.0-dev.1...v1.21.0-dev.2) (2026-06-01)
+
+
+### Bug Fixes
+
+* Cancelled install callbacks on some OEM systems ([#598](https://github.com/MorpheApp/morphe-manager/issues/598)) ([6ec8543](https://github.com/MorpheApp/morphe-manager/commit/6ec854345ae6bd59a51de1998a943566fa20db4f))
+
 # [1.21.0-dev.1](https://github.com/MorpheApp/morphe-manager/compare/v1.20.0...v1.21.0-dev.1) (2026-05-31)
 
 
