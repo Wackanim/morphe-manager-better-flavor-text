@@ -118,15 +118,15 @@
     <string name="home_download_instructions_step1">Bấm nút \"%s\" ở bên dưới</string>
     <string name="home_download_instructions_step2_part1">Cuộn xuống trang web và bấm</string>
     <string name="home_download_instructions_download_button_toast">Bấm tải xuống trên trang web ấy, chứ không phải ở đây 😊</string>
-    <string name="home_download_instructions_download_button_toast_2">Tuyệt vời! Bây giờ hãy nhấp vào tiếp tục bên dưới và truy cập trang web 👆</string>
-    <string name="home_download_instructions_download_button_toast_3">Thực hành tạo nên sự hoàn hảo, bạn đang tiến bộ đấy! 💪</string>
-    <string name="home_download_instructions_download_button_toast_4">Vẫn chưa đến... vẫn chưa đến... 🙈</string>
-    <string name="home_download_instructions_download_button_toast_5">Được rồi, tôi tôn trọng sự tận tâm của bạn 🫡</string>
-    <string name="home_download_instructions_download_button_toast_6">Bây giờ bạn là người dùng thử nút Morphe chính thức 🏅</string>
-    <string name="home_download_instructions_step3">Đợi tải xong, nhưng &lt;b&gt;không cài&lt;/b&gt; APK</string>
+    <string name="home_download_instructions_download_button_toast_2">Tuyệt! Bây giờ hãy bấm tiếp tục ở bên dưới và truy cập trang web 👆</string>
+    <string name="home_download_instructions_download_button_toast_3">Có công mài sắt, có ngày nên kim. Bạn đang làm rất tốt! 💪</string>
+    <string name="home_download_instructions_download_button_toast_4">Vẫn chưa... vẫn chưa đâu... 🙈</string>
+    <string name="home_download_instructions_download_button_toast_5">Được rồi, phải công nhận là bạn kiên trì thật đấy 🫡</string>
+    <string name="home_download_instructions_download_button_toast_6">Giờ bạn đã là chuyên gia thử nút của Morphe rồi đấy 🏅</string>
+    <string name="home_download_instructions_step3">Đợi tải xong, &lt;b&gt;không cài&lt;/b&gt; APK</string>
     <string name="home_download_instructions_step3_mount">Đợi tải xong, sau đó &lt;b&gt;cài APK&lt;/b&gt;</string>
-    <string name="home_download_instructions_step4">Sau khi tải xong, hãy quay lại Morphe</string>
-    <string name="home_download_instructions_step4_mount">Sau khi cài APK gốc, hãy quay lại Morphe</string>
+    <string name="home_download_instructions_step4">Quay lại Morphe</string>
+    <string name="home_download_instructions_step4_mount">Sau khi cài xong, hãy quay lại Morphe</string>
     <string name="home_download_instructions_continue">Đi đến APKMirror.com</string>
     <!-- Home Screen - Dialog 3: File Picker Prompt -->
     <string name="home_file_picker_prompt_title">Chọn APK đã tải</string>
@@ -608,9 +608,9 @@ Kích thước hình ảnh yêu cầu:
     <string name="installer_use_standard">Trình cài đặt tiêu chuẩn</string>
     <string name="settings_prompt_installer_on_install">Hỏi chọn trình cài đặt</string>
     <string name="settings_prompt_installer_on_install_description">Luôn hiện hộp thoại chọn trình cài đặt khi cài ứng dụng đã vá</string>
-    <string name="settings_auto_install_with_shizuku">Tự động cài đặt sau khi vá lỗi</string>
-    <string name="settings_auto_install_with_shizuku_description">Tự động cài đặt APK đã vá ngay sau khi quá trình vá lỗi hoàn tất</string>
-    <string name="settings_auto_install_prompt_conflict">\"%s\" đã được bật - cài đặt tự động sẽ bị bỏ qua</string>
+    <string name="settings_auto_install_with_shizuku">Tự động cài đặt sau khi vá</string>
+    <string name="settings_auto_install_with_shizuku_description">Tự động cài đặt APK đã vá ngay sau khi quá trình vá hoàn tất</string>
+    <string name="settings_auto_install_prompt_conflict">Đã bật \"%s\" - cài đặt tự động sẽ bị bỏ qua</string>
     <!-- Settings - System Tab - Performance Section -->
     <string name="settings_system_battery_optimization">Tối ưu hóa pin</string>
     <string name="settings_system_battery_optimization_description">Duy trì trình vá tiếp tục chạy kể cả khi ứng dụng bị thu nhỏ</string>
@@ -735,6 +735,9 @@ Kích thước hình ảnh yêu cầu:
     <string name="retry">Thử lại</string>
     <string name="add">Thêm</string>
     <string name="close">Đóng</string>
+    <string name="back">Thôi</string>
+    <string name="next">Tiếp</string>
+    <string name="skip">Bỏ qua</string>
     <string name="clear">Dọn dẹp</string>
     <string name="delete">Xoá</string>
     <string name="remove">Xóa</string>
@@ -813,4 +816,8 @@ Kích thước hình ảnh yêu cầu:
     <string name="resume_download">Tiếp tục tải</string>
     <string name="download_confirmation_metered">"Bạn đang dùng 4G/5G, tiếp tục có thể phát sinh cước dữ liệu.\n\nBạn vẫn muốn tiếp tục?"</string>
     <string name="download_update_confirmation">Tải bản cập nhật?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <!-- Translate "System" the same way as the System settings tab -->
+    <!-- Tour prompt dialog shown after first successful patch install -->
 </resources>

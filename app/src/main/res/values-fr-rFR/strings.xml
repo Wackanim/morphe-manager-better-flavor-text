@@ -118,9 +118,9 @@
     <string name="home_download_instructions_step1">Appuyez sur le bouton \'%s\' ci-dessous</string>
     <string name="home_download_instructions_step2_part1">Faites défiler la page Web et appuyez sur</string>
     <string name="home_download_instructions_download_button_toast">Appuyez sur télécharger sur le site Web, et non ici 😊</string>
-    <string name="home_download_instructions_download_button_toast_2">Parfait ! Maintenant, cliquez sur continuer ci-dessous et allez sur le site web 👆</string>
+    <string name="home_download_instructions_download_button_toast_2">Parfait ! Maintenant cliquez sur \'Continuer\' ci-dessous et allez sur le site 👆</string>
     <string name="home_download_instructions_download_button_toast_3">C\'est en forgeant qu\'on devient forgeron, vous y êtes presque ! 💪</string>
-    <string name="home_download_instructions_download_button_toast_4">Pas encore… pas encore… 🙈</string>
+    <string name="home_download_instructions_download_button_toast_4">Toujours pas là… toujours pas là… 🙈</string>
     <string name="home_download_instructions_download_button_toast_5">OK, je respecte le dévouement 🫡</string>
     <string name="home_download_instructions_download_button_toast_6">Vous êtes maintenant un testeur officiel du bouton Morphe 🏅</string>
     <string name="home_download_instructions_step3">Attendez que le téléchargement se termine, et &lt;b&gt;n\'installez pas&lt;/b&gt; l\'APK</string>
@@ -135,7 +135,7 @@
     <string name="home_recommended_version">Version recommandée</string>
     <string name="home_selected_version">Version sélectionnée</string>
     <string name="home_select_apk_title">Sélectionner un APK</string>
-    <string name="home_select_any_apk_description">Sélectionnez un fichier APK d\'une application ou choisissez une application déjà installée sur cet appareil</string>
+    <string name="home_select_any_apk_description">Sélectionnez un fichier APK de n’importe quelle application, ou choisissez une application déjà installée sur cet appareil</string>
     <string name="home_use_installed_app">Utiliser l\'application installée</string>
     <string name="home_installed_app_picker_title">Sélectionner l\'application installée</string>
     <string name="home_installed_app_picker_empty">Aucune application trouvée</string>
@@ -608,9 +608,9 @@ Les dimensions des images doivent respecter les valeurs suivantes :
     <string name="installer_use_standard">Utiliser l\'installateur standard</string>
     <string name="settings_prompt_installer_on_install">Invite de sélection de l\'installateur</string>
     <string name="settings_prompt_installer_on_install_description">Affiche la boîte de dialogue de sélection de l’installateur à chaque installation d’une application patchée</string>
-    <string name="settings_auto_install_with_shizuku">Installer automatiquement après le correctif</string>
-    <string name="settings_auto_install_with_shizuku_description">Installe silencieusement l\'APK corrigé dès que le correctif est terminé</string>
-    <string name="settings_auto_install_prompt_conflict">\"%s\" est activé - l\'installation automatique sera ignorée</string>
+    <string name="settings_auto_install_with_shizuku">Installer automatiquement après le patchage</string>
+    <string name="settings_auto_install_with_shizuku_description">Installe silencieusement l’APK patché dès que le patchage est terminé</string>
+    <string name="settings_auto_install_prompt_conflict">%s est activé - l’installation automatique sera passée</string>
     <!-- Settings - System Tab - Performance Section -->
     <string name="settings_system_battery_optimization">Optimisation de la batterie</string>
     <string name="settings_system_battery_optimization_description">Maintient le patcher en cours d\'exécution lorsque l\'application est minimisée</string>
@@ -630,7 +630,7 @@ Les dimensions des images doivent respecter les valeurs suivantes :
     <string name="settings_system_keystore">Keystore</string>
     <string name="settings_system_import_keystore_description">Importez ou exportez votre keystore de signature</string>
     <string name="settings_system_import_keystore_dialog_title">Entrez les informations d\'identification du keystore</string>
-    <string name="settings_system_import_keystore_dialog_description">Vous devrez saisir les identifiants du keystore pour l’importer</string>
+    <string name="settings_system_import_keystore_dialog_description">Vous devrez entrer les identifiants du keystore pour l’importer</string>
     <string name="settings_system_import_keystore_dialog_alias_field">Nom d\'utilisateur (Alias)</string>
     <string name="settings_system_import_keystore_dialog_password_field">Mot de passe</string>
     <string name="settings_system_import_keystore_dialog_format_field">Format de keystore</string>
@@ -681,7 +681,7 @@ Les dimensions des images doivent respecter les valeurs suivantes :
     <string name="settings_system_patch_selection_patches_in_sources_format">%1$s dans %2$s</string>
     <string name="settings_system_patch_selection_source_format">Source #%s</string>
     <string name="settings_system_patch_selection_will_delete">Cela supprimera :</string>
-    <string name="settings_system_patch_selection_reset_all_warning">Cela supprimera définitivement toutes les sélections de patch enregistrées pour tous les packages et sources</string>
+    <string name="settings_system_patch_selection_reset_all_warning">Cela supprimera définitivement toutes les sélections de patch enregistrées pour tous les paquets et sources</string>
     <string name="settings_system_patch_selection_reset_package_warning">Cela supprimera définitivement toutes les sélections de patch enregistrées pour %s dans toutes les sources</string>
     <string name="settings_system_patch_selection_reset_source_warning">Cela supprimera définitivement les sélections de patch enregistrées pour %1$s dans la source #%2$s</string>
     <string name="settings_system_export_source_data_fail">Échec de l\'exportation des données de source</string>
@@ -735,6 +735,10 @@ Les dimensions des images doivent respecter les valeurs suivantes :
     <string name="retry">Réessayer</string>
     <string name="add">Ajouter</string>
     <string name="close">Fermer</string>
+    <string name="back">Retour</string>
+    <string name="next">Suivant</string>
+    <string name="done">Terminé</string>
+    <string name="skip">Passer</string>
     <string name="clear">Effacer</string>
     <string name="delete">Supprimer</string>
     <string name="remove">Supprimer</string>
@@ -815,4 +819,29 @@ Les dimensions des images doivent respecter les valeurs suivantes :
 
 Voulez-vous tout de même continuer ?"</string>
     <string name="download_update_confirmation">Télécharger la mise à jour ?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <string name="onboarding_step_of">%1$d sur %2$d</string>
+    <string name="onboarding_sources_desc">Gérez vos sources de correctifs. Chaque source fournit des correctifs qui peuvent être appliqués à vos applications.</string>
+    <string name="onboarding_swipe_title">Gestes de glissement</string>
+    <string name="onboarding_swipe_desc">Faites glisser votre doigt vers la droite sur une carte d\'application pour afficher les correctifs disponibles. Faites glisser votre doigt vers la gauche pour masquer la carte de l\'écran d\'accueil.</string>
+    <string name="onboarding_settings_desc">Personnalisez Morphe : apparence, options avancées et outils système.</string>
+    <string name="onboarding_sources_patches_desc">Appuyez pour afficher tous les correctifs disponibles dans cette source.</string>
+    <string name="onboarding_sources_version_desc">Appuyez sur la version pour afficher l\'historique complet des modifications de cette source.</string>
+    <string name="onboarding_sources_prerelease_desc">Activez cette option pour recevoir les versions de correctifs pré-versions de cette source.</string>
+    <string name="onboarding_appearance_tab_desc">Personnalisez l\'apparence de l\'application : thème, couleur d\'accent et arrière-plan.</string>
+    <string name="onboarding_appearance_theme_desc">Choisissez entre un thème clair, sombre ou système. Vous pouvez également choisir une couleur d\'accent personnalisée ou activer la couleur dynamique.</string>
+    <string name="onboarding_expert_mode_desc">Activez le mode Expert pour déverrouiller la sélection de correctifs, les options personnalisées et les autres fonctionnalités avancées.</string>
+    <!-- Translate "System" the same way as the System settings tab -->
+    <string name="onboarding_system_tab_title">Onglet Système</string>
+    <string name="onboarding_system_tab_desc">Gestion du trousseau, outils d\'importation/exportation et informations sur l\'application.</string>
+    <string name="onboarding_system_installer_desc">Choisissez comment les applications corrigées sont installées : standard, montage racine ou Shizuku.</string>
+    <string name="onboarding_system_process_runtime_desc">Exécutez le correctif dans un processus séparé pour améliorer la stabilité et contrôler l\'utilisation de la mémoire. Recommandé pour les applications volumineuses.</string>
+    <string name="onboarding_system_file_picker_desc">Activez cette option pour utiliser le navigateur de fichiers intégré au lieu du sélecteur système lors de la sélection d\'APK ou de trousseaux.</string>
+    <!-- Tour prompt dialog shown after first successful patch install -->
+    <string name="tour_prompt_title">Visite guidée rapide</string>
+    <string name="tour_prompt_desc">Souhaitez-vous une visite guidée rapide des principales fonctionnalités de Morphe ?</string>
+    <string name="tour_prompt_confirm">Faites-moi découvrir</string>
+    <string name="onboarding_restart_title">Visite guidée</string>
+    <string name="onboarding_restart_desc">Faites une visite guidée des principales fonctionnalités de Morphe.</string>
 </resources>

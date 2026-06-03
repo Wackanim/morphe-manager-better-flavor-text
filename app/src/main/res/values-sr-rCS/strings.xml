@@ -718,6 +718,8 @@ Opciono, putanja sadrži ikonu obaveštenja u jednom od sledećih formata:
     <string name="retry">Pokušaj ponovo</string>
     <string name="add">Dodaj</string>
     <string name="close">Zatvori</string>
+    <string name="back">Nazad</string>
+    <string name="skip">Preskoči</string>
     <string name="clear">Obriši</string>
     <string name="delete">Izbriši</string>
     <string name="remove">Ukloni</string>
@@ -798,4 +800,8 @@ Opciono, putanja sadrži ikonu obaveštenja u jednom od sledećih formata:
 
 Da li i dalje želite da nastavite?"</string>
     <string name="download_update_confirmation">Preuzeti ažuriranje?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <!-- Translate "System" the same way as the System settings tab -->
+    <!-- Tour prompt dialog shown after first successful patch install -->
 </resources>

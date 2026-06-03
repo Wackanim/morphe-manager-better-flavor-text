@@ -734,6 +734,10 @@ morphe_header_custom_dark.png
     <string name="retry">Повторити</string>
     <string name="add">Додати</string>
     <string name="close">Закрити</string>
+    <string name="back">Назад</string>
+    <string name="next">Далі</string>
+    <string name="done">Готово</string>
+    <string name="skip">Пропустити</string>
     <string name="clear">Очистити</string>
     <string name="delete">Видалити</string>
     <string name="remove">Видалити</string>
@@ -814,4 +818,29 @@ morphe_header_custom_dark.png
 
 Ви все ще хочете продовжити?"</string>
     <string name="download_update_confirmation">Завантажити оновлення?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <string name="onboarding_step_of">%1$d з %2$d</string>
+    <string name="onboarding_sources_desc">Керуйте джерелами патчів. Кожне джерело надає патчі, які можна застосувати до ваших застосунків</string>
+    <string name="onboarding_swipe_title">Жести свайпом</string>
+    <string name="onboarding_swipe_desc">Проведіть праворуч по картці застосунку, щоб переглянути доступні патчі. Проведіть ліворуч, щоб приховати картку з головного екрана</string>
+    <string name="onboarding_settings_desc">Налаштуйте Morphe: зовнішній вигляд, розширені параметри та системні інструменти</string>
+    <string name="onboarding_sources_patches_desc">Натисніть, щоб переглянути всі патчі з цього джерела</string>
+    <string name="onboarding_sources_version_desc">Натисніть на версію, щоб переглянути повний журнал змін для цього джерела</string>
+    <string name="onboarding_sources_prerelease_desc">Увімкніть це, щоб отримувати попередні версії патчів із цього джерела</string>
+    <string name="onboarding_appearance_tab_desc">Налаштуйте вигляд застосунку: тему, акцентний колір та фон</string>
+    <string name="onboarding_appearance_theme_desc">Оберіть світлу, темну або системну тему. Ви також можете вибрати власний акцентний колір або увімкнути динамічний колір</string>
+    <string name="onboarding_expert_mode_desc">Увімкніть експертний режим, щоб розблокувати вибір патчів, власні параметри та інші розширені функції</string>
+    <!-- Translate "System" the same way as the System settings tab -->
+    <string name="onboarding_system_tab_title">Вкладка Система</string>
+    <string name="onboarding_system_tab_desc">Керування сховищем ключів, інструменти імпорту/експорту та інформація про застосунок</string>
+    <string name="onboarding_system_installer_desc">Оберіть спосіб встановлення пропатчених застосунків: стандартний, root монтування або Shizuku</string>
+    <string name="onboarding_system_process_runtime_desc">Запускайте патчинг в окремому процесі для підвищення стабільності та контролю використання пам\'яті. Рекомендовано для великих застосунків</string>
+    <string name="onboarding_system_file_picker_desc">Увімкніть, щоб використовувати вбудований файловий браузер замість системного при виборі APK або сховищ ключів</string>
+    <!-- Tour prompt dialog shown after first successful patch install -->
+    <string name="tour_prompt_title">Швидкий огляд функцій</string>
+    <string name="tour_prompt_desc">Хочете швидкий огляд ключових функцій Morphe?</string>
+    <string name="tour_prompt_confirm">Покажіть мені</string>
+    <string name="onboarding_restart_title">Огляд функцій</string>
+    <string name="onboarding_restart_desc">Пройдіть покроковий огляд ключових функцій Morphe</string>
 </resources>

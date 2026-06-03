@@ -734,6 +734,10 @@ Kuvien mittojen on oltava seuraavat:
     <string name="retry">Yritä uudelleen</string>
     <string name="add">Lisää</string>
     <string name="close">Sulje</string>
+    <string name="back">Takaisin</string>
+    <string name="next">Seuraava</string>
+    <string name="done">Valmis</string>
+    <string name="skip">Ohita</string>
     <string name="clear">Tyhjennä</string>
     <string name="delete">Poista</string>
     <string name="remove">Poista</string>
@@ -814,4 +818,29 @@ Kuvien mittojen on oltava seuraavat:
 
 Haluatko silti jatkaa?"</string>
     <string name="download_update_confirmation">Ladataanko päivitys?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <string name="onboarding_step_of">%1$d / %2$d</string>
+    <string name="onboarding_sources_desc">Hallitse korjauslähteitäsi. Jokainen lähde tarjoaa korjauksia, jotka voidaan soveltaa sovelluksiisi</string>
+    <string name="onboarding_swipe_title">Pyyhkäisyeleet</string>
+    <string name="onboarding_swipe_desc">Pyyhkäise oikealle sovelluskortissa nähdäksesi sen käytettävissä olevat korjaukset. Pyyhkäise vasemmalle piilottaaksesi kortin aloitusnäytöltä</string>
+    <string name="onboarding_settings_desc">Muokkaa Morphea: ulkoasua, lisäasetuksia ja järjestelmätyökaluja</string>
+    <string name="onboarding_sources_patches_desc">Napauta nähdäksesi kaikki tästä lähteestä saatavilla olevat korjaukset</string>
+    <string name="onboarding_sources_version_desc">Napauta versiota nähdäksesi tämän lähteen täydelliset muutoshistoria</string>
+    <string name="onboarding_sources_prerelease_desc">Ota tämä käyttöön saadaksesi ennakkokorjauksia tästä lähteestä</string>
+    <string name="onboarding_appearance_tab_desc">Muokkaa sovelluksen ulkoasua: teemaa, korostusväriä ja taustaa</string>
+    <string name="onboarding_appearance_theme_desc">Valitse vaalea, tumma tai järjestelmäteema. Voit myös valita mukautetun korostusvärin tai ottaa käyttöön Dynaamisen värin</string>
+    <string name="onboarding_expert_mode_desc">Ota asiantuntijatila käyttöön avataksesi korjausvalinnan, mukautetut asetukset ja muut lisäominaisuudet</string>
+    <!-- Translate "System" the same way as the System settings tab -->
+    <string name="onboarding_system_tab_title">Järjestelmä-välilehti</string>
+    <string name="onboarding_system_tab_desc">Avaintenhallinta, tuonti-/vientityökalut ja sovellustiedot</string>
+    <string name="onboarding_system_installer_desc">Valitse, miten korjattuja sovelluksia asennetaan: vakio, root-asennus tai Shizuku</string>
+    <string name="onboarding_system_process_runtime_desc">Suorita korjaus erillisessä prosessissa vakauden parantamiseksi ja muistin käytön hallitsemiseksi. Suositeltavaa suurille sovelluksille</string>
+    <string name="onboarding_system_file_picker_desc">Ota tämä käyttöön käyttääksesi sisäänrakennettua tiedostoselainta järjestelmän valitsimen sijaan APK-tiedostoja tai avaimia valittaessa</string>
+    <!-- Tour prompt dialog shown after first successful patch install -->
+    <string name="tour_prompt_title">Pikatutoriaali</string>
+    <string name="tour_prompt_desc">Haluatko pikatutoriaalin Morphen tärkeimmistä ominaisuuksista?</string>
+    <string name="tour_prompt_confirm">Näytä minulle</string>
+    <string name="onboarding_restart_title">Ominaisuuksien tutoriaali</string>
+    <string name="onboarding_restart_desc">Käy opastetulla kierroksella Morphen tärkeimmissä ominaisuuksissa</string>
 </resources>

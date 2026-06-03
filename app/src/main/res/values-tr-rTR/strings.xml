@@ -120,9 +120,9 @@
     <string name="home_download_instructions_download_button_toast">Web sitesindeki indirme düğmesine basın, buradakine değil 😊</string>
     <string name="home_download_instructions_download_button_toast_2">Harika! Şimdi aşağıdan devam\'a tıklayın ve web sitesine gidin 👆</string>
     <string name="home_download_instructions_download_button_toast_3">Pratik mükemmelleştirir, yaklaşıyorsun! 💪</string>
-    <string name="home_download_instructions_download_button_toast_4">Hala yok… hala yok… 🙈</string>
+    <string name="home_download_instructions_download_button_toast_4">Hala ulaşılmadı… hala ulaşılmadı… 🙈</string>
     <string name="home_download_instructions_download_button_toast_5">Tamam, özveriyi anlıyorum 🫡</string>
-    <string name="home_download_instructions_download_button_toast_6">Artık resmi bir Morphe buton test kullanıcısısınız 🏅</string>
+    <string name="home_download_instructions_download_button_toast_6">Artık resmi bir Morphe butonu test kullanıcısısınız 🏅</string>
     <string name="home_download_instructions_step3">İndirme tamamlanana kadar bekleyin ve APK\'yi &lt;b&gt;yüklemeyin&lt;/b&gt;</string>
     <string name="home_download_instructions_step3_mount">İndirmenin tamamlanmasını bekleyin, ardından &lt;b&gt;APK\'yi yükleyin&lt;/b&gt;</string>
     <string name="home_download_instructions_step4">İndirme tamamlandıktan sonra Morphe\'ye geri dönün</string>
@@ -607,8 +607,8 @@ Resim boyutları şu şekilde olmalıdır:
     <string name="installer_use_standard">Standardı kullan</string>
     <string name="settings_prompt_installer_on_install">Yükleyici seçimi istemi</string>
     <string name="settings_prompt_installer_on_install_description">Yamalanmış bir uygulama her yüklendiğinde yükleyici seçim penceresini gösterir</string>
-    <string name="settings_auto_install_with_shizuku">Yama sonrası otomatik yükle</string>
-    <string name="settings_auto_install_with_shizuku_description">Yama tamamlanır tamamlanmaz yamalı APK\'yı sessizce yükler</string>
+    <string name="settings_auto_install_with_shizuku">Yamalama sonrası otomatik yükle</string>
+    <string name="settings_auto_install_with_shizuku_description">Yamalama tamamlanır tamamlanmaz yamalanmış APK\'yi sessizce yükler</string>
     <string name="settings_auto_install_prompt_conflict">\"%s\" etkinleştirildi - otomatik yükleme atlanacak</string>
     <!-- Settings - System Tab - Performance Section -->
     <string name="settings_system_battery_optimization">Pil optimizasyonu</string>
@@ -734,6 +734,8 @@ Resim boyutları şu şekilde olmalıdır:
     <string name="retry">Tekrar deneyin</string>
     <string name="add">Ekle</string>
     <string name="close">Kapat</string>
+    <string name="back">Geri</string>
+    <string name="skip">Atla</string>
     <string name="clear">Temizle</string>
     <string name="delete">Sil</string>
     <string name="remove">Kaldır</string>
@@ -814,4 +816,8 @@ Resim boyutları şu şekilde olmalıdır:
 
 Devam etmek istiyor musunuz?"</string>
     <string name="download_update_confirmation">Güncelleme indirilsin mi?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <!-- Translate "System" the same way as the System settings tab -->
+    <!-- Tour prompt dialog shown after first successful patch install -->
 </resources>

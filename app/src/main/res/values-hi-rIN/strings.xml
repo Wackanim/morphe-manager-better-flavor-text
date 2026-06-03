@@ -734,6 +734,10 @@ morphe_header_custom_dark.png
     <string name="retry">पुनरावलोकन करें</string>
     <string name="add">जोड़ें</string>
     <string name="close">बंद करे</string>
+    <string name="back">वापस</string>
+    <string name="next">अगला</string>
+    <string name="done">हो गया</string>
+    <string name="skip">छोड़ें</string>
     <string name="clear">खाली करें</string>
     <string name="delete">हटाएं</string>
     <string name="remove">निकालें</string>
@@ -814,4 +818,29 @@ morphe_header_custom_dark.png
 
 क्या आप अभी भी आगे बढ़ना चाहते हैं?"</string>
     <string name="download_update_confirmation">अपडेट डाउनलोड करें?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <string name="onboarding_step_of">%1$d में से %2$d</string>
+    <string name="onboarding_sources_desc">अपने पैच स्रोतों का प्रबंधन करें। प्रत्येक स्रोत पैच प्रदान करता है जिन्हें आपके ऐप्स पर लागू किया जा सकता है।</string>
+    <string name="onboarding_swipe_title">स्वाइप इशारे</string>
+    <string name="onboarding_swipe_desc">अपने उपलब्ध पैच देखने के लिए किसी ऐप कार्ड पर दाईं ओर स्वाइप करें। होम स्क्रीन से कार्ड को छिपाने के लिए बाईं ओर स्वाइप करें।</string>
+    <string name="onboarding_settings_desc">Morphe को अनुकूलित करें: दिखावट, उन्नत विकल्प और सिस्टम उपकरण।</string>
+    <string name="onboarding_sources_patches_desc">इस स्रोत से उपलब्ध सभी पैच देखने के लिए टैप करें।</string>
+    <string name="onboarding_sources_version_desc">इस स्रोत के लिए पूर्ण चेंजलॉग देखने के लिए संस्करण पर टैप करें।</string>
+    <string name="onboarding_sources_prerelease_desc">इस स्रोत से प्री-रिलीज़ पैच संस्करण प्राप्त करने के लिए इसे सक्षम करें।</string>
+    <string name="onboarding_appearance_tab_desc">ऐप के लुक को अनुकूलित करें: थीम, एक्सेंट रंग और पृष्ठभूमि।</string>
+    <string name="onboarding_appearance_theme_desc">हल्के, गहरे या सिस्टम थीम के बीच चुनें। आप एक कस्टम एक्सेंट रंग भी चुन सकते हैं या डायनामिक कलर सक्षम कर सकते हैं।</string>
+    <string name="onboarding_expert_mode_desc">पैच चयन, कस्टम विकल्पों और अन्य उन्नत सुविधाओं को अनलॉक करने के लिए विशेषज्ञ मोड सक्षम करें।</string>
+    <!-- Translate "System" the same way as the System settings tab -->
+    <string name="onboarding_system_tab_title">सिस्टम टैब</string>
+    <string name="onboarding_system_tab_desc">कीस्टोर प्रबंधन, आयात/निर्यात उपकरण और ऐप जानकारी।</string>
+    <string name="onboarding_system_installer_desc">चुनें कि पैच किए गए ऐप्स को कैसे स्थापित किया जाए: मानक, रूट माउंट, या शिजुकु।</string>
+    <string name="onboarding_system_process_runtime_desc">स्थिरता में सुधार और मेमोरी उपयोग को नियंत्रित करने के लिए एक अलग प्रक्रिया में पैचिंग चलाएं। बड़े ऐप्स के लिए अनुशंसित।</string>
+    <string name="onboarding_system_file_picker_desc">जब APK या कीस्टोर का चयन करते हैं तो सिस्टम पिकर के बजाय अंतर्निहित फ़ाइल ब्राउज़र का उपयोग करने के लिए सक्षम करें।</string>
+    <!-- Tour prompt dialog shown after first successful patch install -->
+    <string name="tour_prompt_title">त्वरित सुविधा दौरा</string>
+    <string name="tour_prompt_desc">क्या आप Morphe की मुख्य विशेषताओं का त्वरित दौरा करना चाहेंगे?</string>
+    <string name="tour_prompt_confirm">मुझे दिखाओ</string>
+    <string name="onboarding_restart_title">सुविधा दौरा</string>
+    <string name="onboarding_restart_desc">Morphe की प्रमुख विशेषताओं का निर्देशित दौरा करें।</string>
 </resources>

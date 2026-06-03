@@ -734,6 +734,8 @@ morphe_header_custom_dark.png
     <string name="retry">Повторить попытку</string>
     <string name="add">Добавить</string>
     <string name="close">Закрыть</string>
+    <string name="back">Назад</string>
+    <string name="skip">Пропустить</string>
     <string name="clear">Очистить</string>
     <string name="delete">Удалить</string>
     <string name="remove">Удалить</string>
@@ -814,4 +816,8 @@ morphe_header_custom_dark.png
 
 Вы все еще хотите продолжить?"</string>
     <string name="download_update_confirmation">Загрузить обновление?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <!-- Translate "System" the same way as the System settings tab -->
+    <!-- Tour prompt dialog shown after first successful patch install -->
 </resources>

@@ -734,6 +734,10 @@ morphe_header_custom_dark.png
     <string name="retry">重试</string>
     <string name="add">添加</string>
     <string name="close">关闭</string>
+    <string name="back">返回</string>
+    <string name="next">下一步</string>
+    <string name="done">完成</string>
+    <string name="skip">跳过</string>
     <string name="clear">清除</string>
     <string name="delete">删除</string>
     <string name="remove">移除</string>
@@ -812,4 +816,29 @@ morphe_header_custom_dark.png
     <string name="resume_download">继续下载</string>
     <string name="download_confirmation_metered">"您当前使用的是计量连接，可能会产生服务提供商的数据费用。\n\n您仍然要继续吗？"</string>
     <string name="download_update_confirmation">下载更新？</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <string name="onboarding_step_of">%1$d/%2$d</string>
+    <string name="onboarding_sources_desc">管理您的补丁源。每个源提供可应用于您的应用程序的补丁</string>
+    <string name="onboarding_swipe_title">滑动势</string>
+    <string name="onboarding_swipe_desc">向右滑动应用程序卡片以查看其可用补丁。向左滑动可从主屏幕隐藏该卡片</string>
+    <string name="onboarding_settings_desc">自定义 Morphe：外观、高级选项和系统工具</string>
+    <string name="onboarding_sources_patches_desc">点击以查看此源可用的所有补丁</string>
+    <string name="onboarding_sources_version_desc">点击版本以查看此源的完整更改日志</string>
+    <string name="onboarding_sources_prerelease_desc">启用此选项以从此源接收预发布补丁版本</string>
+    <string name="onboarding_appearance_tab_desc">自定义应用程序的外观：主题、强调色和背景</string>
+    <string name="onboarding_appearance_theme_desc">在浅色、深色或系统主题之间进行选择。您还可以选择自定义强调色或启用动态色彩</string>
+    <string name="onboarding_expert_mode_desc">启用专家模式以解锁补丁选择、自定义选项和其他高级功能</string>
+    <!-- Translate "System" the same way as the System settings tab -->
+    <string name="onboarding_system_tab_title">系统标签</string>
+    <string name="onboarding_system_tab_desc">密钥库管理、导入/导出工具和应用程序信息</string>
+    <string name="onboarding_system_installer_desc">选择如何安装已打补丁的应用程序：标准、root mount 或 Shizuku</string>
+    <string name="onboarding_system_process_runtime_desc">在单独的进程中运行补丁程序以提高稳定性和控制内存使用。推荐用于大型应用程序</string>
+    <string name="onboarding_system_file_picker_desc">启用此选项可在选择 APK 或密钥库时使用内置文件浏览器，而不是系统选择器</string>
+    <!-- Tour prompt dialog shown after first successful patch install -->
+    <string name="tour_prompt_title">快速功能导览</string>
+    <string name="tour_prompt_desc">您想快速了解 Morphe 的主要功能吗？</string>
+    <string name="tour_prompt_confirm">带我参观</string>
+    <string name="onboarding_restart_title">功能导览</string>
+    <string name="onboarding_restart_desc">获取 Morphe 主要功能的指导导览</string>
 </resources>

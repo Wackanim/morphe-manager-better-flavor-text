@@ -735,6 +735,10 @@ Forrás: #%2$s</string>
     <string name="retry">Újra</string>
     <string name="add">Hozzáadás</string>
     <string name="close">Bezárás</string>
+    <string name="back">Vissza</string>
+    <string name="next">Következő</string>
+    <string name="done">Kész</string>
+    <string name="skip">Kihagyás</string>
     <string name="clear">Törlés</string>
     <string name="delete">Törlés</string>
     <string name="remove">Eltávolítás</string>
@@ -815,4 +819,29 @@ Forrás: #%2$s</string>
 
 Szeretnéd folytatni?"</string>
     <string name="download_update_confirmation">Frissítés letöltése?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <string name="onboarding_step_of">%1$d / %2$d</string>
+    <string name="onboarding_sources_desc">A patch források kezelése. Minden forrás olyan patcheket biztosít, amelyek alkalmazhatók az alkalmazásaidra</string>
+    <string name="onboarding_swipe_title">Gesztusvezérléses ujjmozdulatok</string>
+    <string name="onboarding_swipe_desc">Csúsztass jobbra egy alkalmazáskártyán a rendelkezésre álló patchekért. Csúsztass balra, hogy elrejtsd a kártyát a kezdőképernyőről</string>
+    <string name="onboarding_settings_desc">A Morphe testreszabása: megjelenés, haladó beállítások és rendszereszközök</string>
+    <string name="onboarding_sources_patches_desc">Érintsd meg a forrásból elérhető összes patch megtekintéséhez</string>
+    <string name="onboarding_sources_version_desc">Érintsd meg a verziót a forráshoz tartozó teljes változási napló megtekintéséhez</string>
+    <string name="onboarding_sources_prerelease_desc">Ezt engedélyezd, ha a forrásból előzetes patch verziókat szeretnél fogadni</string>
+    <string name="onboarding_appearance_tab_desc">Az alkalmazás megjelenésének testreszabása: téma, kiemelő szín és háttér</string>
+    <string name="onboarding_appearance_theme_desc">Válassz fényes, sötét vagy rendszer témát. Választhatsz egyedi kiemelő színt vagy engedélyezheted a dinamikus színt</string>
+    <string name="onboarding_expert_mode_desc">Engedélyezd a szakértői módot a patch-ek kiválasztásához, egyéni beállításokhoz és egyéb haladó funkciókhoz</string>
+    <!-- Translate "System" the same way as the System settings tab -->
+    <string name="onboarding_system_tab_title">Rendszer beállítások</string>
+    <string name="onboarding_system_tab_desc">Kulcstár kezelés, importálás/exportálás eszközök és alkalmazás információk</string>
+    <string name="onboarding_system_installer_desc">Válaszd ki, hogyan legyenek telepítve a patchelt alkalmazások: szabványos, root mount vagy Shizuku</string>
+    <string name="onboarding_system_process_runtime_desc">A javítások elvégzése külön folyamatban a stabilitás javítása és a memória használat szabályozása érdekében. Ajánlott nagy alkalmazásokhoz</string>
+    <string name="onboarding_system_file_picker_desc">Engedélyezd, hogy a beépített fájlkezelő legyen használva a rendszer válogató helyett APK-k vagy kulcstárak kiválasztásakor</string>
+    <!-- Tour prompt dialog shown after first successful patch install -->
+    <string name="tour_prompt_title">Rövid funkció bemutató</string>
+    <string name="tour_prompt_desc">Szeretnél egy rövid bemutatót a Morphe fő funkcióiról?</string>
+    <string name="tour_prompt_confirm">Mutasd meg</string>
+    <string name="onboarding_restart_title">Funkció bemutató</string>
+    <string name="onboarding_restart_desc">Tekints meg egy irányított bemutatót a Morphe fő funkcióiról</string>
 </resources>

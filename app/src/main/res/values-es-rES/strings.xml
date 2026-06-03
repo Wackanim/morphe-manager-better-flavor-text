@@ -734,6 +734,8 @@ Las dimensiones de la imagen deben ser las siguientes:
     <string name="retry">Reintentar</string>
     <string name="add">Añadir</string>
     <string name="close">Cerrar</string>
+    <string name="back">Atrás</string>
+    <string name="skip">Omitir</string>
     <string name="clear">Limpiar</string>
     <string name="delete">Eliminar</string>
     <string name="remove">Eliminar</string>
@@ -814,4 +816,8 @@ Las dimensiones de la imagen deben ser las siguientes:
 
 ¿Deseas continuar de todos modos?"</string>
     <string name="download_update_confirmation">¿Descargar actualización?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <!-- Translate "System" the same way as the System settings tab -->
+    <!-- Tour prompt dialog shown after first successful patch install -->
 </resources>

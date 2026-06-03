@@ -344,6 +344,10 @@
     <string name="select_folder">फोल्डर निवडा</string>
     <string name="all">सर्व</string>
     <string name="filter">गाळण</string>
+    <string name="back">मागे</string>
+    <string name="next">पुढे</string>
+    <string name="done">झाले</string>
+    <string name="skip">वगळा</string>
     <string name="select_all">सर्व निवडा</string>
     <string name="select_all_done">सर्व निवडले</string>
     <string name="deselect_all">सर्व निवड रद्द करा</string>
@@ -354,4 +358,29 @@
     <string name="unhide">उघड करा</string>
     <string name="sources">स्त्रोत</string>
     <string name="imported_successfully">यशस्वीरित्या आयात केले</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <string name="onboarding_step_of">%1$d पैकी %2$d</string>
+    <string name="onboarding_sources_desc">तुमचे पॅच स्रोत व्यवस्थापित करा. प्रत्येक स्रोत असे पॅच प्रदान करतो जे तुमच्या ॲप्सवर लागू केले जाऊ शकतात.</string>
+    <string name="onboarding_swipe_title">स्वॅप हावभाव</string>
+    <string name="onboarding_swipe_desc">ॲप कार्डवर स्वाइप करून त्याचे उपलब्ध पॅच पहा. होम स्क्रीनवरून कार्ड लपवण्यासाठी डावीकडे स्वाइप करा.</string>
+    <string name="onboarding_settings_desc">Morphe सानुकूलित करा: स्वरूप, प्रगत पर्याय आणि सिस्टम साधने</string>
+    <string name="onboarding_sources_patches_desc">या स्रोतामधून उपलब्ध असलेले सर्व पॅच पाहण्यासाठी टॅप करा</string>
+    <string name="onboarding_sources_version_desc">या स्रोतासाठी संपूर्ण बदलॉग पाहण्यासाठी आवृत्तीवर टॅप करा</string>
+    <string name="onboarding_sources_prerelease_desc">या स्रोताकडून प्री-रिलीझ पॅच आवृत्त्या प्राप्त करण्यासाठी हे सक्षम करा</string>
+    <string name="onboarding_appearance_tab_desc">ॲपचा देखावा सानुकूलित करा: थीम, रंग आणि पार्श्वभूमी</string>
+    <string name="onboarding_appearance_theme_desc">हलकी, गडद किंवा सिस्टम थीम निवडा. तुम्ही सानुकूल रंग किंवा डायनॅमिक कलर देखील निवडू शकता</string>
+    <string name="onboarding_expert_mode_desc">पॅच निवड, सानुकूल पर्याय आणि इतर प्रगत वैशिष्ट्ये अनलॉक करण्यासाठी तज्ञ मोड सक्षम करा</string>
+    <!-- Translate "System" the same way as the System settings tab -->
+    <string name="onboarding_system_tab_title">सिस्टम टॅब</string>
+    <string name="onboarding_system_tab_desc">कीस्टोअर व्यवस्थापन, आयात/निर्यात साधने आणि ॲप माहिती</string>
+    <string name="onboarding_system_installer_desc">पॅच केलेले ॲप्स कसे स्थापित करायचे ते निवडा: मानक, रूट माउंट किंवा शिजुकू</string>
+    <string name="onboarding_system_process_runtime_desc">स्थिरता सुधारण्यासाठी आणि मेमरी वापर नियंत्रित करण्यासाठी स्वतंत्र प्रक्रियेत पॅचिंग चालवा. मोठ्या ॲप्ससाठी शिफारस केलेले</string>
+    <string name="onboarding_system_file_picker_desc">APK किंवा कीस्टोअर निवडताना सिस्टम पिकरऐवजी अंगभूत फाइल ब्राउझर वापरण्यासाठी सक्षम करा</string>
+    <!-- Tour prompt dialog shown after first successful patch install -->
+    <string name="tour_prompt_title">त्वरित वैशिष्ट्य दौरा</string>
+    <string name="tour_prompt_desc">तुम्हाला Morphe च्या मुख्य वैशिष्ट्यांचा त्वरित दौरा हवा आहे का?</string>
+    <string name="tour_prompt_confirm">मला दाखवा</string>
+    <string name="onboarding_restart_title">वैशिष्ट्य दौरा</string>
+    <string name="onboarding_restart_desc">Morphe च्या मुख्य वैशिष्ट्यांचा मार्गदर्शन दौरा घ्या</string>
 </resources>

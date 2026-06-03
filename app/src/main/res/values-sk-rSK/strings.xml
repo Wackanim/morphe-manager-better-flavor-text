@@ -734,6 +734,8 @@ Rozmery obrázka musia byť nasledovné:
     <string name="retry">Znova</string>
     <string name="add">Pridať</string>
     <string name="close">Zatvoriť</string>
+    <string name="back">Späť</string>
+    <string name="skip">Preskočiť</string>
     <string name="clear">Vyčistiť</string>
     <string name="delete">Odstrániť</string>
     <string name="remove">Vymazať</string>
@@ -814,4 +816,8 @@ Rozmery obrázka musia byť nasledovné:
 
 Chcete aj tak pokračovať?"</string>
     <string name="download_update_confirmation">Stiahnuť aktualizáciu?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <!-- Translate "System" the same way as the System settings tab -->
+    <!-- Tour prompt dialog shown after first successful patch install -->
 </resources>

@@ -734,6 +734,8 @@ morphe_header_custom_dark.png
     <string name="retry">ลองใหม่อีกครั้ง</string>
     <string name="add">เพิ่ม</string>
     <string name="close">ปิด</string>
+    <string name="back">ย้อนกลับ</string>
+    <string name="skip">ข้าม</string>
     <string name="clear">ล้าง</string>
     <string name="delete">ลบ</string>
     <string name="remove">นำออก</string>
@@ -814,4 +816,8 @@ morphe_header_custom_dark.png
 
 คุณยังต้องการดำเนินการต่อหรือไม่?"</string>
     <string name="download_update_confirmation">ดาวน์โหลดอัปเดตหรือไม่?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <!-- Translate "System" the same way as the System settings tab -->
+    <!-- Tour prompt dialog shown after first successful patch install -->
 </resources>

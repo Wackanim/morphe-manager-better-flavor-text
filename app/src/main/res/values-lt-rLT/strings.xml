@@ -78,8 +78,10 @@
     <string name="sources_dialog_view_any_package">Bet kuris paketas</string>
     <string name="sources_dialog_add_source">Pridėti pataisų šaltini</string>
     <string name="sources_dialog_delete_confirm_message">Ištrinti šaltinį \"%s\"? Šio veiksmo negalima atkurti</string>
+    <string name="sources_dialog_remote">Nuotolinis</string>
     <string name="sources_dialog_remote_url">Šaltinio URL</string>
     <string name="sources_dialog_remote_url_formats_title">Pavyzdžiai:</string>
+    <string name="sources_dialog_local">Vietinis</string>
     <string name="sources_dialog_local_file">Pasirinkite pataisos šaltinio failą</string>
     <string name="sources_dialog_local_file_tap_hint">Palieskite, kad peržiūrėtumėte saugojimo vietą</string>
     <string name="sources_dialog_local_file_description">Pasirinkite .mpp pataisos šaltinio failą iš atminties</string>
@@ -93,12 +95,13 @@
     <string name="sources_download_fail">Nepavyko atsisiųsti šaltinio: %s</string>
     <string name="sources_download_fail_named">\'%s\' neįmanoma atnaujinti. Patikrinkite savo interneto ryšį ir bandykite dar kartą</string>
     <string name="sources_download_endpoint_not_found">\'%s\': trūkst meta duomenų apie pataisą</string>
+    <string name="sources_patch_expert_badge">Ekspertas</string>
     <string name="sources_patch_expert_badge_tooltip">Įjunkite Ekspertų režimą Parametruose, kad galėtumėte rankiniu būdu įtraukti šį pataisą</string>
     <!-- Home Screen - Dialog 1: APK Availability -->
     <string name="home_apk_availability_dialog_title">Reikia pagalbos randant originalų nepataisyta APK?</string>
     <string name="home_apk_availability_dialog_simple">Kad pataisyti&lt;b&gt;%s&lt;/b&gt;, jums reikia nepataisytos versijos:</string>
     <string name="home_apk_availability_dialog_expert">Kad pataisyti&lt;b&gt;%s&lt;/b&gt;, jums reikia nepataisytu versiju:</string>
-    <string name="home_apk_availability_recommended_label">Rekomenduota</string>
+    <string name="home_apk_availability_recommended_label">Rekomenduojama</string>
     <string name="home_apk_availability_unpatched_label">Nepataisytas</string>
     <string name="home_apk_availability_incompatible_label">Nesuderinama</string>
     <string name="home_apk_availability_yes">Taip, padėkite man rasti APK</string>
@@ -115,6 +118,11 @@
     <string name="home_download_instructions_step1">Paspauskite \'%s\' mygtuką apačioje</string>
     <string name="home_download_instructions_step2_part1">Slinkite žemyn tinklalapyje ir paspauskite</string>
     <string name="home_download_instructions_download_button_toast">Paspauskite atsisiųsti (Download) puslapyje, o ne čia 😊</string>
+    <string name="home_download_instructions_download_button_toast_2">Puiku! Dabar spustelėkite tęsti (continue) apacioje, svetainėje 👆</string>
+    <string name="home_download_instructions_download_button_toast_3">Praktika daro tobulą, jūs artėjate prie tikslo! 💪</string>
+    <string name="home_download_instructions_download_button_toast_4">Vis dar nėra… vis dar nėra… 🙈</string>
+    <string name="home_download_instructions_download_button_toast_5">Gerai, aš gerbiu įsipareigojimą 🫡</string>
+    <string name="home_download_instructions_download_button_toast_6">Jūs dabar oficialus Morphe mygtuko bandytojas 🏅</string>
     <string name="home_download_instructions_step3">Palaukite, kol atsisižsimas baigsis, ir &lt;b&gt;neįdiekite&lt;/b&gt; APK</string>
     <string name="home_download_instructions_step3_mount">Palaukite, kol atsisiuntimas baigsis, tada &lt;b&gt;diegaite APK&lt;/b&gt;</string>
     <string name="home_download_instructions_step4">Po atsisiuntimo, grįžkite į Morphe</string>
@@ -152,11 +160,13 @@
     <string name="expert_mode_restore_saved_done">Išsaugotas pasirinkimas atkurtas</string>
     <string name="expert_mode_no_results">Nėra rasti pataisų</string>
     <string name="expert_mode_universal_patches">Univeralus pataisymai</string>
+    <string name="expert_mode_new_patches">Nauja</string>
     <string name="expert_mode_multiple_sources_warning_title">Pasirinkta keli šaltiniai</string>
     <string name="expert_mode_multiple_sources_warning_message">"Jūs pasirinkote pataisas iš kelių pataisų šaltinių. Tai gali sukelti nesuderinamumo problemų arba netikėtų veikimo ypatumų.
 
 Ar tikrai norite tęsti?"</string>
     <!-- Home Screen - Home Sub-Dialogs -->
+    <string name="home_invalid_signature_title">Nepatvirtintas APK</string>
     <string name="home_invalid_signature_message">Pasiringtas APK rinkinys nesutampa su tikėtinu skaitmenimis sertifikatu. Jis galbētč buvo modifikuotas arba yra nepatikimos šaltinio.</string>
     <string name="home_invalid_signature_badge">Šis APK galimai neoriginalus</string>
     <string name="home_split_apk_warning_title">Dalinis APK aptiktas</string>
@@ -185,9 +195,29 @@ Norint gauti geriausią rezultatą, ši programa rekomenduoja pataisyti &lt;b&gt
     <string name="home_low_disk_space_dialog_title">Mažai vietos diske</string>
     <string name="home_low_disk_space_dialog_message">Laisvos vietos liko tik %1$.2f GB. Atnaujinimui reikia bent %2$.2f GB laisvos vietos, kad veiktų tinkamai</string>
     <string name="home_low_disk_space_dialog_warning">Tęsiant gali atsirasti klaida „failas nerastas“ arba sugadintas išvesties APK</string>
+    <string name="home_simple_bundle_select_title">Pasirinkite pataisos šaltinio failą</string>
     <!-- Patch Options -->
+    <string name="custom_color">Pasirinktinė spalva</string>
+    <string name="hex_color">„Hex“ spalvos kodas</string>
     <string name="patch_option_instructions">Instrukcijos</string>
+    <string name="patch_option_enter_value">Įveskite reikšmę</string>
+    <string name="patch_option_enter_number">Įveskite numerį</string>
+    <string name="patch_option_enter_decimal">Įvesti dešimtainę</string>
+    <string name="patch_option_list_duplicate">Ši reikšmė jau egzistuoja</string>
+    <string name="patch_option_list_empty">Negalima palikti laukelio tuščio</string>
+    <string name="patch_option_list_empty_state">Dar nieko nepridėta</string>
+    <string name="patch_option_required_missing">%s: užpildykite visus privalomus pasirinkimus</string>
     <!-- Adaptive Icon Creator -->
+    <string name="adaptive_icon_create">Sukurti pasikeiciama piktogramą</string>
+    <string name="adaptive_icon_select_image">Pasirinkti vaizdą</string>
+    <string name="adaptive_icon_change_image">Pakeisti vaizdą</string>
+    <string name="adaptive_icon_background_color">Fono spalva</string>
+    <string name="adaptive_icon_reset_transform">Atkurti padėtį ir dydį</string>
+    <string name="adaptive_icon_safe_zone_inner">Saugioji zonoje (visada matoma)</string>
+    <string name="adaptive_icon_safe_zone_outer">Maskavimo zona (gali būti atkirpta)</string>
+    <string name="adaptive_icon_no_transparency_warning">Paveiksle nėra skaidrių pikselių. Rezultatas gali atrodyti neteisingai</string>
+    <string name="adaptive_icon_created_success">Sėkmingai sukurtas pasikeiciantis piktogramos ženklas</string>
+    <string name="adaptive_icon_creation_failed">Nepavyko sukurti pasikeiciancios piktogramos</string>
     <!-- Header Creator -->
     <!-- Home Screen - App Info Screen -->
     <!-- Home Screen - Root Mode -->
@@ -237,4 +267,8 @@ Norint gauti geriausią rezultatą, ši programa rekomenduoja pataisyti &lt;b&gt
     <!-- File Picker -->
     <!-- Settings - System Tab - About Section -->
     <!-- Shared strings -->
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <!-- Translate "System" the same way as the System settings tab -->
+    <!-- Tour prompt dialog shown after first successful patch install -->
 </resources>

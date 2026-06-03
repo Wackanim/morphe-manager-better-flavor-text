@@ -734,6 +734,10 @@ morphe_header_custom_dark.png
     <string name="retry">Προσπαθήστε ξανά</string>
     <string name="add">Προσθήκη</string>
     <string name="close">Κλείσιμο</string>
+    <string name="back">Επιστροφή</string>
+    <string name="next">Επόμενο</string>
+    <string name="done">Ολοκλήρωση</string>
+    <string name="skip">Παράλειψη</string>
     <string name="clear">Εκκαθάριση</string>
     <string name="delete">Διαγραφή</string>
     <string name="remove">Αφαίρεση</string>
@@ -814,4 +818,29 @@ morphe_header_custom_dark.png
 
 Θέλετε ακόμα να συνεχίσετε;"</string>
     <string name="download_update_confirmation">Λήψη ενημέρωσης;</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <string name="onboarding_step_of">%1$d από %2$d</string>
+    <string name="onboarding_sources_desc">Διαχείριση των πηγών ενημερώσεων. Κάθε πηγή παρέχει ενημερώσεις που μπορούν να εφαρμοστούν στις εφαρμογές σας</string>
+    <string name="onboarding_swipe_title">Ζεστοί χειρισμοί</string>
+    <string name="onboarding_swipe_desc">Σύρετε προς τα δεξιά σε μια κάρτα εφαρμογής για να δείτε τις διαθέσιμες ενημερώσεις της. Σύρετε προς τα αριστερά για να αποκρύψετε την κάρτα από την αρχική οθόνη</string>
+    <string name="onboarding_settings_desc">Προσαρμόστε το Morphe: εμφάνιση, προχωρημένες επιλογές και εργαλεία συστήματος</string>
+    <string name="onboarding_sources_patches_desc">Πατήστε για να δείτε όλες τις ενημερώσεις που είναι διαθέσιμες από αυτήν την πηγή</string>
+    <string name="onboarding_sources_version_desc">Πατήστε στην έκδοση για να δείτε το πλήρες αρχείο αλλαγών για αυτήν την πηγή</string>
+    <string name="onboarding_sources_prerelease_desc">Ενεργοποιήστε το για να λαμβάνετε εκδόσεις ενημερώσεων πριν από την επίσημη κυκλοφορία από αυτήν την πηγή</string>
+    <string name="onboarding_appearance_tab_desc">Προσαρμόστε την εμφάνιση της εφαρμογής: θέμα, χρώμα έμφασης και φόντο</string>
+    <string name="onboarding_appearance_theme_desc">Επιλέξτε μεταξύ φωτεινού, σκούρου ή θέματος συστήματος. Μπορείτε επίσης να επιλέξετε ένα προσαρμοσμένο χρώμα έμφασης ή να ενεργοποιήσετε το Dynamic Color</string>
+    <string name="onboarding_expert_mode_desc">Ενεργοποιήστε την Εξειδικευμένη Λειτουργία για να ξεκλειδώσετε την επιλογή ενημερώσεων, προσαρμοσμένες επιλογές και άλλες προηγμένες λειτουργίες</string>
+    <!-- Translate "System" the same way as the System settings tab -->
+    <string name="onboarding_system_tab_title">Καρτέλα Συστήματος</string>
+    <string name="onboarding_system_tab_desc">Διαχείριση καταλόγων κλειδιών, εργαλεία εισαγωγής/εξαγωγής και πληροφορίες εφαρμογών</string>
+    <string name="onboarding_system_installer_desc">Επιλέξτε πώς θα εγκατασταθούν οι ενημερωμένες εφαρμογές: τυπική, root mount ή Shizuku</string>
+    <string name="onboarding_system_process_runtime_desc">Εκτελέστε την ενημέρωση σε μια ξεχωριστή διαδικασία για να βελτιώσετε τη σταθερότητα και να ελέγξετε τη χρήση μνήμης. Συνιστάται για μεγάλες εφαρμογές</string>
+    <string name="onboarding_system_file_picker_desc">Ενεργοποιήστε το για να χρησιμοποιήσετε τον ενσωματωμένο διαχειριστή αρχείων αντί για το πρόγραμμα επιλογής του συστήματος κατά την επιλογή αρχείων APK ή καταλόγων κλειδιών</string>
+    <!-- Tour prompt dialog shown after first successful patch install -->
+    <string name="tour_prompt_title">Γρήγορη περιήγηση λειτουργιών</string>
+    <string name="tour_prompt_desc">Θέλετε μια γρήγορη περιήγηση στις βασικές λειτουργίες του Morphe;</string>
+    <string name="tour_prompt_confirm">Δείξτε μου γύρω</string>
+    <string name="onboarding_restart_title">Περιήγηση λειτουργιών</string>
+    <string name="onboarding_restart_desc">Κάντε μια καθοδηγούμενη περιήγηση στις βασικές λειτουργίες του Morphe</string>
 </resources>

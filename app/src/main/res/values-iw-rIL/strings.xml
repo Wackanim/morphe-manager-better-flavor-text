@@ -718,6 +718,10 @@ morphe_adaptive_monochrome_custom.xml
     <string name="retry">נסה שוב</string>
     <string name="add">הוסף</string>
     <string name="close">סגור</string>
+    <string name="back">חזרה</string>
+    <string name="next">הבא</string>
+    <string name="done">סיום</string>
+    <string name="skip">דילוג</string>
     <string name="clear">נקה</string>
     <string name="delete">מחק</string>
     <string name="remove">הסר</string>
@@ -798,4 +802,29 @@ morphe_adaptive_monochrome_custom.xml
 
 האם אתה עדיין רוצה להמשיך?"</string>
     <string name="download_update_confirmation">להוריד עדכון?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <string name="onboarding_step_of">%1$d מתוך %2$d</string>
+    <string name="onboarding_sources_desc">נהל את מקורות התיקונים שלך. כל מקור מספק תיקונים שניתן להחיל על האפליקציות שלך</string>
+    <string name="onboarding_swipe_title">מחוות החלקה</string>
+    <string name="onboarding_swipe_desc">החלק ימינה על כרטיס אפליקציה כדי לראות את התיקונים הזמינים. החלק שמאלה כדי להסתיר את הכרטיס ממסך הבית</string>
+    <string name="onboarding_settings_desc">התאם אישית את Morphe: מראה, אפשרויות מתקדמות וכלי מערכת</string>
+    <string name="onboarding_sources_patches_desc">הקש כדי לראות את כל התיקונים הזמינים ממקור זה</string>
+    <string name="onboarding_sources_version_desc">הקש על הגרסה כדי לראות את יומן השינויים המלא עבור מקור זה</string>
+    <string name="onboarding_sources_prerelease_desc">הפעל זאת כדי לקבל גרסאות תיקון לפני הפצה ממקור זה</string>
+    <string name="onboarding_appearance_tab_desc">התאם אישית את מראה האפליקציה: ערכת נושא, צבע הדגשה ורקע</string>
+    <string name="onboarding_appearance_theme_desc">בחר בין ערכת נושא בהירה, כהה או מערכת. אתה יכול גם לבחור צבע הדגשה מותאם אישית או להפעיל צבע דינמי</string>
+    <string name="onboarding_expert_mode_desc">הפעל מצב מומחה כדי לפתוח בחירת תיקונים, אפשרויות מותאמות אישית ותכונות מתקדמות אחרות</string>
+    <!-- Translate "System" the same way as the System settings tab -->
+    <string name="onboarding_system_tab_title">לשונית מערכת</string>
+    <string name="onboarding_system_tab_desc">ניהול מחזיקי מפתחות, כלי ייבוא/ייצוא ומידע על אפליקציות</string>
+    <string name="onboarding_system_installer_desc">בחר כיצד מותקנות אפליקציות מתוקנות: סטנדרטי, הרכבת שורש או Shizuku</string>
+    <string name="onboarding_system_process_runtime_desc">הפעל תיקון בתהליך נפרד כדי לשפר את היציבות ולשלוט בשימוש בזיכרון. מומלץ לאפליקציות גדולות</string>
+    <string name="onboarding_system_file_picker_desc">הפעל כדי להשתמש בדפדפן הקבצים המובנה במקום בוחר המערכת בעת בחירת קבצי APK או מחזיקי מפתחות</string>
+    <!-- Tour prompt dialog shown after first successful patch install -->
+    <string name="tour_prompt_title">סיור תכונות מהיר</string>
+    <string name="tour_prompt_desc">רוצה סיור מהיר בתכונות המרכזיות של Morphe?</string>
+    <string name="tour_prompt_confirm">הראה לי את הסביבה</string>
+    <string name="onboarding_restart_title">סיור תכונות</string>
+    <string name="onboarding_restart_desc">צא לסיור מודרך בתכונות המרכזיות של Morphe</string>
 </resources>

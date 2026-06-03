@@ -734,6 +734,8 @@ Dimensiunile imaginilor trebuie să fie următoarele:
     <string name="retry">Reîncearcă</string>
     <string name="add">Adaugă</string>
     <string name="close">Închide</string>
+    <string name="back">Înapoi</string>
+    <string name="skip">Omitere</string>
     <string name="clear">Golește</string>
     <string name="delete">Șterge</string>
     <string name="remove">Elimină</string>
@@ -814,4 +816,8 @@ Dimensiunile imaginilor trebuie să fie următoarele:
 
 Doriți totuși să continuați?"</string>
     <string name="download_update_confirmation">Descarci actualizarea?</string>
+    <!-- Onboarding coach marks -->
+    <!-- %1$d = current step number, %2$d = total number of steps (e.g. "3 of 13") -->
+    <!-- Translate "System" the same way as the System settings tab -->
+    <!-- Tour prompt dialog shown after first successful patch install -->
 </resources>
