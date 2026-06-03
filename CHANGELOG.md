@@ -1,3 +1,15 @@
+# [1.21.0-dev.3](https://github.com/MorpheApp/morphe-manager/compare/v1.21.0-dev.2...v1.21.0-dev.3) (2026-06-03)
+
+
+### Bug Fixes
+
+* Invert vertical parallax axis ([503e38e](https://github.com/MorpheApp/morphe-manager/commit/503e38ec4461d3f4d6372358bb8b310ac8875f22))
+
+
+### Features
+
+* Add onboarding tour triggered after first patch ([#611](https://github.com/MorpheApp/morphe-manager/issues/611)) ([a7ab6df](https://github.com/MorpheApp/morphe-manager/commit/a7ab6dfb576d20a9ef527ec759ed33ee57189772))
+
 # [1.21.0-dev.2](https://github.com/MorpheApp/morphe-manager/compare/v1.21.0-dev.1...v1.21.0-dev.2) (2026-06-01)
 
 
