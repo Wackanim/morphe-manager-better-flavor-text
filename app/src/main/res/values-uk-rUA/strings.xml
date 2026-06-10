@@ -83,7 +83,7 @@
     <string name="sources_dialog_remote_url_formats_title">Приклади:</string>
     <string name="sources_dialog_local">Локальне</string>
     <string name="sources_dialog_local_file">Виберіть файл джерела патчів</string>
-    <string name="sources_dialog_local_file_tap_hint">Торкніться, щоб переглянути сховище</string>
+    <string name="sources_dialog_local_file_tap_hint">Натисніть, щоб переглянути сховище</string>
     <string name="sources_dialog_local_file_description">Виберіть файл джерела патчів .mpp зі сховища</string>
     <string name="sources_dialog_local_invalid_extension">Файл повинен мати розширення .mpp</string>
     <string name="sources_dialog_url_valid">Дійсне посилання на репозиторій або JSON-файл</string>

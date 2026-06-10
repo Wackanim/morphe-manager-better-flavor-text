@@ -4,7 +4,7 @@
     <string name="home_other_apps">অন্যান্য অ্যাপ</string>
     <string name="home_not_patched_yet">এখনো প্যাচ করা হয়নি</string>
     <string name="home_no_patches_available">কোনো প্যাচ পাওয়া যায়নি</string>
-    <string name="home_app_hide_title">অ্যাপটি গোপন করবেন?</string>
+    <string name="home_app_hide_title">এই অ্যাপটি লুকিয়ে রাখবেন?</string>
     <string name="home_app_hide_message">এই অ্যাপটি হোম স্ক্রীন থেকে লুকানো হবে। আপনি তালিকাটির নীচে থাকা \'\' বোতামটি ব্যবহার করে পরে এটি পুনরুদ্ধার করতে পারেন</string>
     <string name="home_app_will_be_hidden">এই অ্যাপটি গোপন হবে</string>
     <string name="home_app_no_hidden">কোনো গোপন অ্যাপ নেই</string>

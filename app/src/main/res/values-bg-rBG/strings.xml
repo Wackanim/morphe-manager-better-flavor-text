@@ -2,8 +2,8 @@
 <resources>
     <!-- Home Screen -->
     <string name="home_other_apps">Други приложения</string>
-    <string name="home_not_patched_yet">Все още не е патчено</string>
-    <string name="home_no_patches_available">Няма достъпни пачове</string>
+    <string name="home_not_patched_yet">Все още не е патчнато</string>
+    <string name="home_no_patches_available">Няма достъпни патчове</string>
     <string name="home_app_hide_title">Скриване на това приложение?</string>
     <string name="home_app_hide_message">Това приложение ще бъде скрито от началния екран. Можете да го възстановите по-късно от скритите приложения, като използвате бутона в долната част на списъка.</string>
     <string name="home_app_will_be_hidden">Това приложение ще бъде скрито.</string>
